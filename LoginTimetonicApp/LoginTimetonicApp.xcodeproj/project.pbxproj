@@ -12,7 +12,7 @@
 		1DB728FBE4BB3ADF35088285 /* Pods_LoginTimetonicAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811A1097BCE2DFC75E04782C /* Pods_LoginTimetonicAppTests.framework */; };
 		D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F52B5F365500EF0B60 /* AppDelegate.swift */; };
 		D02673F82B5F365500EF0B60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F72B5F365500EF0B60 /* SceneDelegate.swift */; };
-		D02673FA2B5F365500EF0B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F92B5F365500EF0B60 /* ViewController.swift */; };
+		D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F92B5F365500EF0B60 /* LogInViewController.swift */; };
 		D02673FD2B5F365500EF0B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02673FB2B5F365500EF0B60 /* Main.storyboard */; };
 		D02674002B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02673FE2B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld */; };
 		D02674022B5F365700EF0B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02674012B5F365700EF0B60 /* Assets.xcassets */; };
@@ -52,7 +52,7 @@
 		D02673F22B5F365500EF0B60 /* LoginTimetonicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTimetonicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02673F52B5F365500EF0B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D02673F72B5F365500EF0B60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D02673F92B5F365500EF0B60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D02673F92B5F365500EF0B60 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		D02673FC2B5F365500EF0B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D02673FF2B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginTimetonicApp.xcdatamodel; sourceTree = "<group>"; };
 		D02674012B5F365700EF0B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				B7753E2C77A0A3004CBB9DD0 /* Pods-LoginTimetonicAppTests.debug.xcconfig */,
 				8F64E14C1E9D0EC08729E33C /* Pods-LoginTimetonicAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,9 +141,13 @@
 		D02673F42B5F365500EF0B60 /* LoginTimetonicApp */ = {
 			isa = PBXGroup;
 			children = (
+				D026742D2B5F495400EF0B60 /* Services */,
+				D026742C2B5F494B00EF0B60 /* Util */,
+				D026742B2B5F494100EF0B60 /* Presenter */,
+				D026742A2B5F493800EF0B60 /* View */,
+				D02674282B5F492500EF0B60 /* Model */,
 				D02673F52B5F365500EF0B60 /* AppDelegate.swift */,
 				D02673F72B5F365500EF0B60 /* SceneDelegate.swift */,
-				D02673F92B5F365500EF0B60 /* ViewController.swift */,
 				D02673FB2B5F365500EF0B60 /* Main.storyboard */,
 				D02674012B5F365700EF0B60 /* Assets.xcassets */,
 				D02674032B5F365700EF0B60 /* LaunchScreen.storyboard */,
@@ -169,6 +172,42 @@
 				D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */,
 			);
 			path = LoginTimetonicAppUITests;
+			sourceTree = "<group>";
+		};
+		D02674282B5F492500EF0B60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D026742A2B5F493800EF0B60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D02673F92B5F365500EF0B60 /* LogInViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D026742B2B5F494100EF0B60 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D026742C2B5F494B00EF0B60 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D026742D2B5F495400EF0B60 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,7 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02674002B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld in Sources */,
-				D02673FA2B5F365500EF0B60 /* ViewController.swift in Sources */,
+				D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */,
 				D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */,
 				D02673F82B5F365500EF0B60 /* SceneDelegate.swift in Sources */,
 			);
