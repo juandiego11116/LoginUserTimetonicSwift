@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Log In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LoginTimetonicApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LogInViewController" customModule="LoginTimetonicApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="PasswordTextField" customModule="PasswordTextField">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,6 +39,9 @@
                                         <rect key="frame" x="234.33333333333334" y="148" width="65.666666666666657" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                        <connections>
+                                            <action selector="loginPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bYD-lI-vUm"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -50,6 +53,10 @@
                             <constraint firstItem="Kyp-CE-crw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xxI-lo-r3Q"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextfield" destination="aOG-Xs-Zoe" id="e6s-hi-iHu"/>
+                        <outlet property="passwordTextfield" destination="Blm-Da-ECH" id="nNK-QK-q7X"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

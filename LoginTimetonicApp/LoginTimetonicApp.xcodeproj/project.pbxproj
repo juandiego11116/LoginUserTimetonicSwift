@@ -20,6 +20,7 @@
 		D02674102B5F365700EF0B60 /* LoginTimetonicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026740F2B5F365700EF0B60 /* LoginTimetonicAppTests.swift */; };
 		D026741A2B5F365700EF0B60 /* LoginTimetonicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */; };
 		D026741C2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */; };
+		D026742F2B5F514800EF0B60 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026742E2B5F514800EF0B60 /* LoginPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		D02674152B5F365700EF0B60 /* LoginTimetonicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginTimetonicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITests.swift; sourceTree = "<group>"; };
 		D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D026742E2B5F514800EF0B60 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 		D026742B2B5F494100EF0B60 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				D026742E2B5F514800EF0B60 /* LoginPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 				D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */,
 				D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */,
 				D02673F82B5F365500EF0B60 /* SceneDelegate.swift in Sources */,
+				D026742F2B5F514800EF0B60 /* LoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
