@@ -1,6 +1,0 @@
-framework module Pods_LoginTimetonicApp_LoginTimetonicAppUITests {
-  umbrella header "Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
