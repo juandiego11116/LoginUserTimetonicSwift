@@ -20,7 +20,15 @@
 		D02674102B5F365700EF0B60 /* LoginTimetonicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026740F2B5F365700EF0B60 /* LoginTimetonicAppTests.swift */; };
 		D026741A2B5F365700EF0B60 /* LoginTimetonicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */; };
 		D026741C2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */; };
-		D026742F2B5F514800EF0B60 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026742E2B5F514800EF0B60 /* LoginPresenter.swift */; };
+		D0D7A2372B61DBE0003DDEDD /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */; };
+		D0D7A23C2B61ECF5003DDEDD /* CreateAppKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */; };
+		D0D7A2402B61EDE1003DDEDD /* CreateOauthkeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */; };
+		D0D7A2422B61EE5D003DDEDD /* CreateSessKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */; };
+		D0D7A2442B61EEE1003DDEDD /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */; };
+		D0D7A2492B669F77003DDEDD /* AuthDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */; };
+		D0D7A24C2B66A444003DDEDD /* AuthApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */; };
+		D0D7A2502B66A79F003DDEDD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */; };
+		D0D7A2522B66AE0F003DDEDD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2512B66AE0F003DDEDD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +72,15 @@
 		D02674152B5F365700EF0B60 /* LoginTimetonicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginTimetonicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITests.swift; sourceTree = "<group>"; };
 		D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D026742E2B5F514800EF0B60 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = SOURCE_ROOT; };
+		D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAppKeyModel.swift; sourceTree = "<group>"; };
+		D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOauthkeyModel.swift; sourceTree = "<group>"; };
+		D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessKeyModel.swift; sourceTree = "<group>"; };
+		D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataSource.swift; sourceTree = "<group>"; };
+		D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApiService.swift; sourceTree = "<group>"; };
+		D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		D0D7A2512B66AE0F003DDEDD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +159,9 @@
 		D02673F42B5F365500EF0B60 /* LoginTimetonicApp */ = {
 			isa = PBXGroup;
 			children = (
-				D026742D2B5F495400EF0B60 /* Services */,
-				D026742C2B5F494B00EF0B60 /* Util */,
+				D0D7A24D2B66A72D003DDEDD /* Helpers */,
+				D0D7A2462B669F41003DDEDD /* DataSources */,
+				D0D7A23A2B61ECA4003DDEDD /* Repositories */,
 				D026742B2B5F494100EF0B60 /* Presenter */,
 				D026742A2B5F493800EF0B60 /* View */,
 				D02674282B5F492500EF0B60 /* Model */,
@@ -179,6 +196,9 @@
 		D02674282B5F492500EF0B60 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */,
+				D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */,
+				D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -194,23 +214,59 @@
 		D026742B2B5F494100EF0B60 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				D026742E2B5F514800EF0B60 /* LoginPresenter.swift */,
+				D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		D026742C2B5F494B00EF0B60 /* Util */ = {
+		D0D7A23A2B61ECA4003DDEDD /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				D0D7A2452B669F1A003DDEDD /* Auth */,
 			);
-			path = Util;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
-		D026742D2B5F495400EF0B60 /* Services */ = {
+		D0D7A2452B669F1A003DDEDD /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */,
 			);
-			path = Services;
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D0D7A2462B669F41003DDEDD /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				D0D7A2472B669F4D003DDEDD /* Auth */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		D0D7A2472B669F4D003DDEDD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */,
+				D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D0D7A24D2B66A72D003DDEDD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D0D7A24E2B66A743003DDEDD /* Networking */,
+				D0D7A2512B66AE0F003DDEDD /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D0D7A24E2B66A743003DDEDD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,10 +509,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02674002B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld in Sources */,
+				D0D7A23C2B61ECF5003DDEDD /* CreateAppKeyModel.swift in Sources */,
 				D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */,
 				D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */,
+				D0D7A2402B61EDE1003DDEDD /* CreateOauthkeyModel.swift in Sources */,
+				D0D7A2442B61EEE1003DDEDD /* AuthRepository.swift in Sources */,
+				D0D7A2422B61EE5D003DDEDD /* CreateSessKeyModel.swift in Sources */,
+				D0D7A2502B66A79F003DDEDD /* ApiClient.swift in Sources */,
+				D0D7A24C2B66A444003DDEDD /* AuthApiService.swift in Sources */,
 				D02673F82B5F365500EF0B60 /* SceneDelegate.swift in Sources */,
-				D026742F2B5F514800EF0B60 /* LoginPresenter.swift in Sources */,
+				D0D7A2522B66AE0F003DDEDD /* Constants.swift in Sources */,
+				D0D7A2492B669F77003DDEDD /* AuthDataSource.swift in Sources */,
+				D0D7A2372B61DBE0003DDEDD /* LoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
