@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Build/Products/Debug-iphonesimulator/PasswordTextField/PasswordTextField.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/PasswordTextField.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Build/Products/Debug-iphonesimulator/PasswordTextField/PasswordTextField.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "PasswordTextField-Swift.h",
+      'external-contents': "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/PasswordTextField.build/unextended-interface-header.h",
+    }]
+    }]
+}

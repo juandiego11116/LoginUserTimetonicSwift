@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>574C27EF-6801-4B79-AB6B-370429E45F13</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>574C27EF-6801-4B79-AB6B-370429E45F13.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LoginTimetonicApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LoginTimetonicApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LoginTimetonicApp</string>
+			<key>timeStartedRecording</key>
+			<real>727833065.882815</real>
+			<key>timeStoppedRecording</key>
+			<real>727833079.58665001</real>
+			<key>title</key>
+			<string>Build LoginTimetonicApp</string>
+			<key>uniqueIdentifier</key>
+			<string>574C27EF-6801-4B79-AB6B-370429E45F13</string>
+		</dict>
+		<key>60FBB02D-13E8-4518-8AC0-A94CD7679FAA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>60FBB02D-13E8-4518-8AC0-A94CD7679FAA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LoginTimetonicApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LoginTimetonicApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LoginTimetonicApp</string>
+			<key>timeStartedRecording</key>
+			<real>727832824.65938699</real>
+			<key>timeStoppedRecording</key>
+			<real>727832829.93287694</real>
+			<key>title</key>
+			<string>Build LoginTimetonicApp</string>
+			<key>uniqueIdentifier</key>
+			<string>60FBB02D-13E8-4518-8AC0-A94CD7679FAA</string>
+		</dict>
+		<key>CCC5169C-0AFE-4790-A89D-84CAC7C584CC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CCC5169C-0AFE-4790-A89D-84CAC7C584CC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>LoginTimetonicApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LoginTimetonicApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LoginTimetonicApp</string>
+			<key>timeStartedRecording</key>
+			<real>727665987.53568602</real>
+			<key>timeStoppedRecording</key>
+			<real>727665988.464504</real>
+			<key>title</key>
+			<string>Build LoginTimetonicApp</string>
+			<key>uniqueIdentifier</key>
+			<string>CCC5169C-0AFE-4790-A89D-84CAC7C584CC</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
