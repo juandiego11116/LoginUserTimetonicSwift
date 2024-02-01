@@ -21,7 +21,6 @@
 		D026741A2B5F365700EF0B60 /* LoginTimetonicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */; };
 		D026741C2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */; };
 		D0D7A2372B61DBE0003DDEDD /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */; };
-		D0D7A2392B61E861003DDEDD /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2382B61E861003DDEDD /* LoginModel.swift */; };
 		D0D7A23C2B61ECF5003DDEDD /* CreateAppKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */; };
 		D0D7A2402B61EDE1003DDEDD /* CreateOauthkeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */; };
 		D0D7A2422B61EE5D003DDEDD /* CreateSessKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */; };
@@ -74,7 +73,6 @@
 		D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITests.swift; sourceTree = "<group>"; };
 		D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = SOURCE_ROOT; };
-		D0D7A2382B61E861003DDEDD /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAppKeyModel.swift; sourceTree = "<group>"; };
 		D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOauthkeyModel.swift; sourceTree = "<group>"; };
 		D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessKeyModel.swift; sourceTree = "<group>"; };
@@ -198,7 +196,6 @@
 		D02674282B5F492500EF0B60 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D0D7A2382B61E861003DDEDD /* LoginModel.swift */,
 				D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */,
 				D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */,
 				D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */,
@@ -513,7 +510,6 @@
 			files = (
 				D02674002B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld in Sources */,
 				D0D7A23C2B61ECF5003DDEDD /* CreateAppKeyModel.swift in Sources */,
-				D0D7A2392B61E861003DDEDD /* LoginModel.swift in Sources */,
 				D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */,
 				D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */,
 				D0D7A2402B61EDE1003DDEDD /* CreateOauthkeyModel.swift in Sources */,
