@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+PasswordTextField-PasswordTextField in Pods, no dependencies
+PasswordTextField in Pods, depends on:
+PasswordTextField-PasswordTextField in Pods (explicit)
+Pods-LoginTimetonicApp in Pods, depends on:
+PasswordTextField in Pods (explicit)
+LoginTimetonicApp in LoginTimetonicApp, depends on:
+Pods-LoginTimetonicApp in Pods (implicit dependency via file 'Pods_LoginTimetonicApp.framework' in build phase 'Link Binary')
+PasswordTextField in Pods (implicit dependency via options '-framework PasswordTextField' in build setting 'OTHER_LDFLAGS')
