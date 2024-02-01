@@ -1,0 +1,75 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "c62fc84609969da6051238229fd3412dd6db463e4b1173dd7626e428acf4a68b"
+    },
+    {
+      "guid" : "c62fc84609969da6051238229fd3412daa81f13c57fe144393fc2356aa21f8ae"
+    },
+    {
+      "guid" : "c62fc84609969da6051238229fd3412daa0b0869ab2bb1fb5bfa7fa2eec97c26"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4247f30b1ff992dea62411eaae36712100"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4249dffbba2761b01c53a01eac440417e7"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42eaa54f564bf0f4c5c6a0807d0b794f6f"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421e767be400138f6a746c747189de4556"
+    }
+  ],
+  "containerPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/LoginTimetonicApp.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Build/Products",
+      "pchPath" : "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/DerivedData/LoginTimetonicApp/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

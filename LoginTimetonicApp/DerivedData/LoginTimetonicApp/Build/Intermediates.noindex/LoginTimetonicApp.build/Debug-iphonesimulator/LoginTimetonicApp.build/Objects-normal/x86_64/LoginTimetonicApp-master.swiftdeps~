@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "9f9ae550d1daf9d16b176687eab98d70a58274bca35b6dc6c6f192e1dd1e3166"
+build_start_time: [1706140542, 474456000]
+build_end_time: [1706140542, 670511000]
+inputs:
+  "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/LoginPresenter.swift": !private [1706140541, 573010285]
+  "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/LoginTimetonicApp/AppDelegate.swift": !private [1705967317, 136453307]
+  "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/LoginTimetonicApp/SceneDelegate.swift": !private [1705967317, 142263589]
+  "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/LoginTimetonicApp/View/LogInViewController.swift": !private [1706140024, 633370273]
