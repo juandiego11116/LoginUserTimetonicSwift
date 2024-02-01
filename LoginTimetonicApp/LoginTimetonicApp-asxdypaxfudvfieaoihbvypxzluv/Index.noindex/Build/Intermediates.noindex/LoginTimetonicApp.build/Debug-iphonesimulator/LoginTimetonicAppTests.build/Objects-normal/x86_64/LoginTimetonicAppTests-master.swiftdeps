@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
-options: "dfcff5279c70d2d7773fbcde91f5685f083437e3a69adc4d41037dd74dff9119"
-build_start_time: [1706140280, 305332000]
-build_end_time: [1706140285, 587870000]
-inputs:
-  "/Users/leidyluna/Documents/GitHub/LoginUserTimetonicSwift/LoginTimetonicApp/LoginTimetonicAppTests/LoginTimetonicAppTests.swift": [1705967319, 585218332]

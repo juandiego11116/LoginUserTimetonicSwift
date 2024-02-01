@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B809726773F8CC0CD52310 /* Pods_LoginTimetonicApp_LoginTimetonicAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D8FC3CD23854B009D9C0E1 /* Pods_LoginTimetonicApp_LoginTimetonicAppUITests.framework */; };
-		13D9D6D36FC81A1FC014E1A8 /* Pods_LoginTimetonicApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DAF0885734B5814EFCC5CD /* Pods_LoginTimetonicApp.framework */; };
-		1DB728FBE4BB3ADF35088285 /* Pods_LoginTimetonicAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811A1097BCE2DFC75E04782C /* Pods_LoginTimetonicAppTests.framework */; };
 		D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F52B5F365500EF0B60 /* AppDelegate.swift */; };
 		D02673F82B5F365500EF0B60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F72B5F365500EF0B60 /* SceneDelegate.swift */; };
-		D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F92B5F365500EF0B60 /* LogInViewController.swift */; };
+		D02673FA2B5F365500EF0B60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F92B5F365500EF0B60 /* ViewController.swift */; };
 		D02673FD2B5F365500EF0B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02673FB2B5F365500EF0B60 /* Main.storyboard */; };
 		D02674002B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02673FE2B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld */; };
 		D02674022B5F365700EF0B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02674012B5F365700EF0B60 /* Assets.xcassets */; };
@@ -20,15 +17,6 @@
 		D02674102B5F365700EF0B60 /* LoginTimetonicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026740F2B5F365700EF0B60 /* LoginTimetonicAppTests.swift */; };
 		D026741A2B5F365700EF0B60 /* LoginTimetonicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */; };
 		D026741C2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */; };
-		D0D7A2372B61DBE0003DDEDD /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */; };
-		D0D7A23C2B61ECF5003DDEDD /* CreateAppKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */; };
-		D0D7A2402B61EDE1003DDEDD /* CreateOauthkeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */; };
-		D0D7A2422B61EE5D003DDEDD /* CreateSessKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */; };
-		D0D7A2442B61EEE1003DDEDD /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */; };
-		D0D7A2492B669F77003DDEDD /* AuthDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */; };
-		D0D7A24C2B66A444003DDEDD /* AuthApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */; };
-		D0D7A2502B66A79F003DDEDD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */; };
-		D0D7A2522B66AE0F003DDEDD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2512B66AE0F003DDEDD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,19 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E4C79A6997F86C281466EEE /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1DA8A762D3706F804B9AEDF7 /* Pods-LoginTimetonicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTimetonicApp.debug.xcconfig"; path = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp.debug.xcconfig"; sourceTree = "<group>"; };
-		3E7DF6270F7D393C037E46D4 /* Pods-LoginTimetonicApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTimetonicApp.release.xcconfig"; path = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp.release.xcconfig"; sourceTree = "<group>"; };
-		53D8FC3CD23854B009D9C0E1 /* Pods_LoginTimetonicApp_LoginTimetonicAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTimetonicApp_LoginTimetonicAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71DAF0885734B5814EFCC5CD /* Pods_LoginTimetonicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTimetonicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F17BA1E6FDB7A46A77E158C /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		811A1097BCE2DFC75E04782C /* Pods_LoginTimetonicAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginTimetonicAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F64E14C1E9D0EC08729E33C /* Pods-LoginTimetonicAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTimetonicAppTests.release.xcconfig"; path = "Target Support Files/Pods-LoginTimetonicAppTests/Pods-LoginTimetonicAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		B7753E2C77A0A3004CBB9DD0 /* Pods-LoginTimetonicAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginTimetonicAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LoginTimetonicAppTests/Pods-LoginTimetonicAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D02673F22B5F365500EF0B60 /* LoginTimetonicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTimetonicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02673F52B5F365500EF0B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D02673F72B5F365500EF0B60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D02673F92B5F365500EF0B60 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D02673F92B5F365500EF0B60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D02673FC2B5F365500EF0B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D02673FF2B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginTimetonicApp.xcdatamodel; sourceTree = "<group>"; };
 		D02674012B5F365700EF0B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,15 +51,6 @@
 		D02674152B5F365700EF0B60 /* LoginTimetonicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginTimetonicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITests.swift; sourceTree = "<group>"; };
 		D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = SOURCE_ROOT; };
-		D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAppKeyModel.swift; sourceTree = "<group>"; };
-		D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOauthkeyModel.swift; sourceTree = "<group>"; };
-		D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessKeyModel.swift; sourceTree = "<group>"; };
-		D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
-		D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataSource.swift; sourceTree = "<group>"; };
-		D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApiService.swift; sourceTree = "<group>"; };
-		D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
-		D0D7A2512B66AE0F003DDEDD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D9D6D36FC81A1FC014E1A8 /* Pods_LoginTimetonicApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DB728FBE4BB3ADF35088285 /* Pods_LoginTimetonicAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,36 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B809726773F8CC0CD52310 /* Pods_LoginTimetonicApp_LoginTimetonicAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		212AB7BCD79113ACE35AA029 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1DA8A762D3706F804B9AEDF7 /* Pods-LoginTimetonicApp.debug.xcconfig */,
-				3E7DF6270F7D393C037E46D4 /* Pods-LoginTimetonicApp.release.xcconfig */,
-				0E4C79A6997F86C281466EEE /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.debug.xcconfig */,
-				7F17BA1E6FDB7A46A77E158C /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig */,
-				B7753E2C77A0A3004CBB9DD0 /* Pods-LoginTimetonicAppTests.debug.xcconfig */,
-				8F64E14C1E9D0EC08729E33C /* Pods-LoginTimetonicAppTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		5621A8E6758064E20CD2371B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				71DAF0885734B5814EFCC5CD /* Pods_LoginTimetonicApp.framework */,
-				53D8FC3CD23854B009D9C0E1 /* Pods_LoginTimetonicApp_LoginTimetonicAppUITests.framework */,
-				811A1097BCE2DFC75E04782C /* Pods_LoginTimetonicAppTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D02673E92B5F365500EF0B60 = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +85,6 @@
 				D026740E2B5F365700EF0B60 /* LoginTimetonicAppTests */,
 				D02674182B5F365700EF0B60 /* LoginTimetonicAppUITests */,
 				D02673F32B5F365500EF0B60 /* Products */,
-				212AB7BCD79113ACE35AA029 /* Pods */,
-				5621A8E6758064E20CD2371B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,14 +101,9 @@
 		D02673F42B5F365500EF0B60 /* LoginTimetonicApp */ = {
 			isa = PBXGroup;
 			children = (
-				D0D7A24D2B66A72D003DDEDD /* Helpers */,
-				D0D7A2462B669F41003DDEDD /* DataSources */,
-				D0D7A23A2B61ECA4003DDEDD /* Repositories */,
-				D026742B2B5F494100EF0B60 /* Presenter */,
-				D026742A2B5F493800EF0B60 /* View */,
-				D02674282B5F492500EF0B60 /* Model */,
 				D02673F52B5F365500EF0B60 /* AppDelegate.swift */,
 				D02673F72B5F365500EF0B60 /* SceneDelegate.swift */,
+				D02673F92B5F365500EF0B60 /* ViewController.swift */,
 				D02673FB2B5F365500EF0B60 /* Main.storyboard */,
 				D02674012B5F365700EF0B60 /* Assets.xcassets */,
 				D02674032B5F365700EF0B60 /* LaunchScreen.storyboard */,
@@ -193,82 +130,6 @@
 			path = LoginTimetonicAppUITests;
 			sourceTree = "<group>";
 		};
-		D02674282B5F492500EF0B60 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */,
-				D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */,
-				D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D026742A2B5F493800EF0B60 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				D02673F92B5F365500EF0B60 /* LogInViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		D026742B2B5F494100EF0B60 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		D0D7A23A2B61ECA4003DDEDD /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A2452B669F1A003DDEDD /* Auth */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		D0D7A2452B669F1A003DDEDD /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		D0D7A2462B669F41003DDEDD /* DataSources */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A2472B669F4D003DDEDD /* Auth */,
-			);
-			path = DataSources;
-			sourceTree = "<group>";
-		};
-		D0D7A2472B669F4D003DDEDD /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */,
-				D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */,
-			);
-			path = Auth;
-			sourceTree = "<group>";
-		};
-		D0D7A24D2B66A72D003DDEDD /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A24E2B66A743003DDEDD /* Networking */,
-				D0D7A2512B66AE0F003DDEDD /* Constants.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		D0D7A24E2B66A743003DDEDD /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -276,11 +137,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D026741F2B5F365700EF0B60 /* Build configuration list for PBXNativeTarget "LoginTimetonicApp" */;
 			buildPhases = (
-				857B83C4A47669987EDEDE9F /* [CP] Check Pods Manifest.lock */,
 				D02673EE2B5F365500EF0B60 /* Sources */,
 				D02673EF2B5F365500EF0B60 /* Frameworks */,
 				D02673F02B5F365500EF0B60 /* Resources */,
-				60ED0330557A22CC4063BC03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +154,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D02674222B5F365700EF0B60 /* Build configuration list for PBXNativeTarget "LoginTimetonicAppTests" */;
 			buildPhases = (
-				7F6E50004A03E84C4A4A303A /* [CP] Check Pods Manifest.lock */,
 				D02674072B5F365700EF0B60 /* Sources */,
 				D02674082B5F365700EF0B60 /* Frameworks */,
 				D02674092B5F365700EF0B60 /* Resources */,
@@ -314,11 +172,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D02674252B5F365700EF0B60 /* Build configuration list for PBXNativeTarget "LoginTimetonicAppUITests" */;
 			buildPhases = (
-				F8D23434CCD1AED91A559E82 /* [CP] Check Pods Manifest.lock */,
 				D02674112B5F365700EF0B60 /* Sources */,
 				D02674122B5F365700EF0B60 /* Frameworks */,
 				D02674132B5F365700EF0B60 /* Resources */,
-				BE6BED9BD00598F45BA54801 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,127 +256,15 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		60ED0330557A22CC4063BC03 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F6E50004A03E84C4A4A303A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoginTimetonicAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		857B83C4A47669987EDEDE9F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoginTimetonicApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE6BED9BD00598F45BA54801 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F8D23434CCD1AED91A559E82 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LoginTimetonicApp-LoginTimetonicAppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		D02673EE2B5F365500EF0B60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D02674002B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld in Sources */,
-				D0D7A23C2B61ECF5003DDEDD /* CreateAppKeyModel.swift in Sources */,
-				D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */,
+				D02673FA2B5F365500EF0B60 /* ViewController.swift in Sources */,
 				D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */,
-				D0D7A2402B61EDE1003DDEDD /* CreateOauthkeyModel.swift in Sources */,
-				D0D7A2442B61EEE1003DDEDD /* AuthRepository.swift in Sources */,
-				D0D7A2422B61EE5D003DDEDD /* CreateSessKeyModel.swift in Sources */,
-				D0D7A2502B66A79F003DDEDD /* ApiClient.swift in Sources */,
-				D0D7A24C2B66A444003DDEDD /* AuthApiService.swift in Sources */,
 				D02673F82B5F365500EF0B60 /* SceneDelegate.swift in Sources */,
-				D0D7A2522B66AE0F003DDEDD /* Constants.swift in Sources */,
-				D0D7A2492B669F77003DDEDD /* AuthDataSource.swift in Sources */,
-				D0D7A2372B61DBE0003DDEDD /* LoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,7 +436,6 @@
 		};
 		D02674202B5F365700EF0B60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DA8A762D3706F804B9AEDF7 /* Pods-LoginTimetonicApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -721,7 +464,6 @@
 		};
 		D02674212B5F365700EF0B60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E7DF6270F7D393C037E46D4 /* Pods-LoginTimetonicApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -750,7 +492,6 @@
 		};
 		D02674232B5F365700EF0B60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7753E2C77A0A3004CBB9DD0 /* Pods-LoginTimetonicAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -771,7 +512,6 @@
 		};
 		D02674242B5F365700EF0B60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F64E14C1E9D0EC08729E33C /* Pods-LoginTimetonicAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -792,7 +532,6 @@
 		};
 		D02674262B5F365700EF0B60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E4C79A6997F86C281466EEE /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -811,7 +550,6 @@
 		};
 		D02674272B5F365700EF0B60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F17BA1E6FDB7A46A77E158C /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
