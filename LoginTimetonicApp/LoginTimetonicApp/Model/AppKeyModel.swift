@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CreateAppKeyModel : Codable{
+struct AppKeyModel : Codable{
     let status: String
     let appkey: String
     let id: String

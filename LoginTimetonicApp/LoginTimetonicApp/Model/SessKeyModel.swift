@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CreateSessKeyModel : Codable{
+struct SessKeyModel : Codable{
     let status: String
     let sesskey: String?
     let id: String?

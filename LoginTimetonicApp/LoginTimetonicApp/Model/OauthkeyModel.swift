@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CreateOauthkeyModel : Codable{
+struct OauthkeyModel : Codable{
     let status: String
     let oauthkey: String
     let id: String
