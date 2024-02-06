@@ -27,18 +27,7 @@ class LogInViewController: UIViewController, LoginPresenterDelegate {
     }
     
     @IBAction func loginPressed(_ sender: UIButton){
-        guard let email = emailTextfield.text,
-              let password = passwordTextfield.text else {
-            return
-        }
-        presenter.loginPressed(email: email, password: password) { result in
-            switch result {
-            case .success(_):
-                self.loginSuccess()
-            case .failure(let error):
-                self.loginFailure(error: error)
-            }
-        }
+        presenter.loginPressed(email: emailTextfield.text, password: passwordTextfield.text)
     }
     
     func loginSuccess() {
