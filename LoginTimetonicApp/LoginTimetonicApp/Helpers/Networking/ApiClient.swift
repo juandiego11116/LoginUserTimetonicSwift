@@ -22,7 +22,6 @@ enum ApiError: Error {
 class ApiClient {
     
     func request<T: Decodable>(url: String, method: HTTPMethod, parameters: [String: Any]?, completion: @escaping (Result<T, Error>) -> Void) {
-        
         AF.request(url, method: Alamofire.HTTPMethod(rawValue: method.rawValue), parameters: parameters)
             .validate()
             .response { response in
@@ -31,7 +30,6 @@ class ApiClient {
                     if let data = data, !data.isEmpty {
                         let jsonString = String(data: data, encoding: .utf8)
                         print("Response JSON string: \(jsonString ?? "No data")")
-                        
                         do {
                             let decodedObject = try JSONDecoder().decode(T.self, from: data)
                             completion(.success(decodedObject))
