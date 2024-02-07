@@ -65,14 +65,12 @@ class LoginPresenter{
             case .success(let sessKeyModel):
                 self?.sessKey = sessKeyModel.sesskey
                 self?.defauls.set(self?.sessKey, forKey: Constants.userDefaulds.SESSION_KEY)
-                //                implement view controller to Book
                 self?.delegate?.loginSuccess()
             case .failure(let error):
                 self?.delegate?.loginFailure(error: error)
             }
         }
     }
-    
 }
 
 
