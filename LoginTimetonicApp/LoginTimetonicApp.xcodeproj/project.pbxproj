@@ -222,17 +222,9 @@
 		D0D7A23A2B61ECA4003DDEDD /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				D0D7A2452B669F1A003DDEDD /* Auth */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		D0D7A2452B669F1A003DDEDD /* Auth */ = {
-			isa = PBXGroup;
-			children = (
 				D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */,
 			);
-			path = Auth;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		D0D7A2462B669F41003DDEDD /* DataSources */ = {
