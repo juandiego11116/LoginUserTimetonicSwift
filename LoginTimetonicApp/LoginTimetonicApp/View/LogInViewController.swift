@@ -8,11 +8,11 @@
 import UIKit
 import PasswordTextField
 
-protocol LoginView: AnyObject {
+protocol LoginViewControllable: AnyObject {
     func showResult(isSuccess: Bool, message: String)
 }
 
-class LogInViewController: UIViewController, LoginPresenterDelegate {
+class LoginViewController: UIViewController, LoginPresenterDelegate {
     
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: PasswordTextField!
@@ -37,8 +37,5 @@ class LogInViewController: UIViewController, LoginPresenterDelegate {
     func loginFailure(error: Error) {
         print("Login failure. Error: \(error.localizedDescription)")
     }
-    
-    
-    
 }
 
