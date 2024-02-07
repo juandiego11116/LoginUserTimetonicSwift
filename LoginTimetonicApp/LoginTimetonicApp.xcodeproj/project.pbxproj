@@ -12,8 +12,7 @@
 		1DB728FBE4BB3ADF35088285 /* Pods_LoginTimetonicAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811A1097BCE2DFC75E04782C /* Pods_LoginTimetonicAppTests.framework */; };
 		D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F52B5F365500EF0B60 /* AppDelegate.swift */; };
 		D02673F82B5F365500EF0B60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F72B5F365500EF0B60 /* SceneDelegate.swift */; };
-		D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F92B5F365500EF0B60 /* LogInViewController.swift */; };
-		D02673FD2B5F365500EF0B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02673FB2B5F365500EF0B60 /* Main.storyboard */; };
+		D02673FA2B5F365500EF0B60 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02673F92B5F365500EF0B60 /* LoginViewController.swift */; };
 		D02674002B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D02673FE2B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld */; };
 		D02674022B5F365700EF0B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02674012B5F365700EF0B60 /* Assets.xcassets */; };
 		D02674052B5F365700EF0B60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02674032B5F365700EF0B60 /* LaunchScreen.storyboard */; };
@@ -21,14 +20,15 @@
 		D026741A2B5F365700EF0B60 /* LoginTimetonicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */; };
 		D026741C2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */; };
 		D0D7A2372B61DBE0003DDEDD /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */; };
-		D0D7A23C2B61ECF5003DDEDD /* CreateAppKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */; };
-		D0D7A2402B61EDE1003DDEDD /* CreateOauthkeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */; };
-		D0D7A2422B61EE5D003DDEDD /* CreateSessKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */; };
+		D0D7A23C2B61ECF5003DDEDD /* AppKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23B2B61ECF5003DDEDD /* AppKeyModel.swift */; };
+		D0D7A2402B61EDE1003DDEDD /* OauthkeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A23F2B61EDE1003DDEDD /* OauthkeyModel.swift */; };
+		D0D7A2422B61EE5D003DDEDD /* SessKeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2412B61EE5D003DDEDD /* SessKeyModel.swift */; };
 		D0D7A2442B61EEE1003DDEDD /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */; };
-		D0D7A2492B669F77003DDEDD /* AuthDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */; };
+		D0D7A2492B669F77003DDEDD /* DataSourceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2482B669F77003DDEDD /* DataSourceProtocols.swift */; };
 		D0D7A24C2B66A444003DDEDD /* AuthApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */; };
 		D0D7A2502B66A79F003DDEDD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */; };
 		D0D7A2522B66AE0F003DDEDD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D7A2512B66AE0F003DDEDD /* Constants.swift */; };
+		D0D7A25D2B71C2B5003DDEDD /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D7A25C2B71C2B5003DDEDD /* LoginView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +61,7 @@
 		D02673F22B5F365500EF0B60 /* LoginTimetonicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginTimetonicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02673F52B5F365500EF0B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D02673F72B5F365500EF0B60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D02673F92B5F365500EF0B60 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		D02673FC2B5F365500EF0B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D02673F92B5F365500EF0B60 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D02673FF2B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginTimetonicApp.xcdatamodel; sourceTree = "<group>"; };
 		D02674012B5F365700EF0B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02674042B5F365700EF0B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,14 +72,15 @@
 		D02674192B5F365700EF0B60 /* LoginTimetonicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITests.swift; sourceTree = "<group>"; };
 		D026741B2B5F365700EF0B60 /* LoginTimetonicAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTimetonicAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D0D7A2362B61DBE0003DDEDD /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = SOURCE_ROOT; };
-		D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAppKeyModel.swift; sourceTree = "<group>"; };
-		D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOauthkeyModel.swift; sourceTree = "<group>"; };
-		D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessKeyModel.swift; sourceTree = "<group>"; };
+		D0D7A23B2B61ECF5003DDEDD /* AppKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKeyModel.swift; sourceTree = "<group>"; };
+		D0D7A23F2B61EDE1003DDEDD /* OauthkeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthkeyModel.swift; sourceTree = "<group>"; };
+		D0D7A2412B61EE5D003DDEDD /* SessKeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessKeyModel.swift; sourceTree = "<group>"; };
 		D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
-		D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataSource.swift; sourceTree = "<group>"; };
+		D0D7A2482B669F77003DDEDD /* DataSourceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceProtocols.swift; sourceTree = "<group>"; };
 		D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApiService.swift; sourceTree = "<group>"; };
 		D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		D0D7A2512B66AE0F003DDEDD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D0D7A25C2B71C2B5003DDEDD /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +167,7 @@
 				D02674282B5F492500EF0B60 /* Model */,
 				D02673F52B5F365500EF0B60 /* AppDelegate.swift */,
 				D02673F72B5F365500EF0B60 /* SceneDelegate.swift */,
-				D02673FB2B5F365500EF0B60 /* Main.storyboard */,
+				D0D7A25B2B71C29E003DDEDD /* Resources */,
 				D02674012B5F365700EF0B60 /* Assets.xcassets */,
 				D02674032B5F365700EF0B60 /* LaunchScreen.storyboard */,
 				D02674062B5F365700EF0B60 /* Info.plist */,
@@ -196,9 +196,9 @@
 		D02674282B5F492500EF0B60 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D0D7A23B2B61ECF5003DDEDD /* CreateAppKeyModel.swift */,
-				D0D7A23F2B61EDE1003DDEDD /* CreateOauthkeyModel.swift */,
-				D0D7A2412B61EE5D003DDEDD /* CreateSessKeyModel.swift */,
+				D0D7A23B2B61ECF5003DDEDD /* AppKeyModel.swift */,
+				D0D7A23F2B61EDE1003DDEDD /* OauthkeyModel.swift */,
+				D0D7A2412B61EE5D003DDEDD /* SessKeyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 		D026742A2B5F493800EF0B60 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D02673F92B5F365500EF0B60 /* LogInViewController.swift */,
+				D02673F92B5F365500EF0B60 /* LoginViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,34 +222,18 @@
 		D0D7A23A2B61ECA4003DDEDD /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				D0D7A2452B669F1A003DDEDD /* Auth */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		D0D7A2452B669F1A003DDEDD /* Auth */ = {
-			isa = PBXGroup;
-			children = (
 				D0D7A2432B61EEE1003DDEDD /* AuthRepository.swift */,
 			);
-			path = Auth;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		D0D7A2462B669F41003DDEDD /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
-				D0D7A2472B669F4D003DDEDD /* Auth */,
-			);
-			path = DataSources;
-			sourceTree = "<group>";
-		};
-		D0D7A2472B669F4D003DDEDD /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				D0D7A2482B669F77003DDEDD /* AuthDataSource.swift */,
+				D0D7A2482B669F77003DDEDD /* DataSourceProtocols.swift */,
 				D0D7A24B2B66A444003DDEDD /* AuthApiService.swift */,
 			);
-			path = Auth;
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 		D0D7A24D2B66A72D003DDEDD /* Helpers */ = {
@@ -267,6 +251,14 @@
 				D0D7A24F2B66A79F003DDEDD /* ApiClient.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		D0D7A25B2B71C29E003DDEDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0D7A25C2B71C2B5003DDEDD /* LoginView.xib */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,7 +372,7 @@
 			files = (
 				D02674052B5F365700EF0B60 /* LaunchScreen.storyboard in Resources */,
 				D02674022B5F365700EF0B60 /* Assets.xcassets in Resources */,
-				D02673FD2B5F365500EF0B60 /* Main.storyboard in Resources */,
+				D0D7A25D2B71C2B5003DDEDD /* LoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,17 +501,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02674002B5F365500EF0B60 /* LoginTimetonicApp.xcdatamodeld in Sources */,
-				D0D7A23C2B61ECF5003DDEDD /* CreateAppKeyModel.swift in Sources */,
-				D02673FA2B5F365500EF0B60 /* LogInViewController.swift in Sources */,
+				D0D7A23C2B61ECF5003DDEDD /* AppKeyModel.swift in Sources */,
+				D02673FA2B5F365500EF0B60 /* LoginViewController.swift in Sources */,
 				D02673F62B5F365500EF0B60 /* AppDelegate.swift in Sources */,
-				D0D7A2402B61EDE1003DDEDD /* CreateOauthkeyModel.swift in Sources */,
+				D0D7A2402B61EDE1003DDEDD /* OauthkeyModel.swift in Sources */,
 				D0D7A2442B61EEE1003DDEDD /* AuthRepository.swift in Sources */,
-				D0D7A2422B61EE5D003DDEDD /* CreateSessKeyModel.swift in Sources */,
+				D0D7A2422B61EE5D003DDEDD /* SessKeyModel.swift in Sources */,
 				D0D7A2502B66A79F003DDEDD /* ApiClient.swift in Sources */,
 				D0D7A24C2B66A444003DDEDD /* AuthApiService.swift in Sources */,
 				D02673F82B5F365500EF0B60 /* SceneDelegate.swift in Sources */,
 				D0D7A2522B66AE0F003DDEDD /* Constants.swift in Sources */,
-				D0D7A2492B669F77003DDEDD /* AuthDataSource.swift in Sources */,
+				D0D7A2492B669F77003DDEDD /* DataSourceProtocols.swift in Sources */,
 				D0D7A2372B61DBE0003DDEDD /* LoginPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,14 +549,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D02673FB2B5F365500EF0B60 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D02673FC2B5F365500EF0B60 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D02674032B5F365700EF0B60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -703,9 +687,9 @@
 				INFOPLIST_FILE = LoginTimetonicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -732,9 +716,9 @@
 				INFOPLIST_FILE = LoginTimetonicApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -758,7 +742,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JL65LYQXK2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.juan.garcia.LoginTimetonicAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -779,7 +763,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JL65LYQXK2;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.juan.garcia.LoginTimetonicAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -799,6 +783,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JL65LYQXK2;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.juan.garcia.LoginTimetonicAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -818,6 +803,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JL65LYQXK2;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.juan.garcia.LoginTimetonicAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

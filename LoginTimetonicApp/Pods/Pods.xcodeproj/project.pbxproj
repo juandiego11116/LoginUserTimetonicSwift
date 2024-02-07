@@ -7,129 +7,240 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002D7D5DFBE709FBCE9FBA89B75BB9D8 /* Ruleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525033E1EC2D7558DF5EB57E1CB0B39 /* Ruleable.swift */; };
-		044B7FA71BF44ED41C181687B864E161 /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3BAE2F6789E56FF432999BD7C0A076 /* RegexRule.swift */; };
-		2251B469FF239DFE476A99B34DB9CD9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		305BA9A5BD14C2CECA5C1A246AE8701F /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E04AADB1F4A290C44A14B8604011AB /* PasswordRule.swift */; };
-		3213A7B3A7232B67F41A955C8C1D54F6 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4DA4A9735A509CB6E80D594A321D3 /* PasswordTextField.swift */; };
-		3D47929EF321EF983503F0BFEB0F239C /* PasswordTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCF3D4420A7D0998D558CEA743295B4 /* PasswordTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		468A52A0DF4FAA770ED4B2B771C8467C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		574D28AEE4D80F83ACE306496CEAFAB7 /* SecureTextToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6F60587F043DA09BB0514B59BE16B /* SecureTextToggleButton.swift */; };
-		5B54E462BB5678F474CB9E5EDB379FAA /* visibility_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 1639D4667D6B93C9EFB76851BAA84CCF /* visibility_off.png */; };
-		68569DD973AA583831F3B214B017FF69 /* visibility_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F274508BCB63B85C04FF8F5048D53486 /* visibility_off@2x.png */; };
-		688FA1975F3E15090A39D2FFCC1DAB00 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 361DD4F742C00B9DEF0CBE450B0B8112 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D34FA860D574CF3E7C51CE6B55435AC /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB39BD27FDD3B860478542BB4C452D4A /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-dummy.m */; };
-		700F6D25585105A628DC740CA23AB0A1 /* visibility_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C07B6B515F0EEDC6FBE72A8948FC5051 /* visibility_on.png */; };
-		70DF0B16FBC9BACE1EF089A9CC9E4C1D /* Pods-LoginTimetonicApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B685B8E75E0CE1F3015887E016C72D /* Pods-LoginTimetonicApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CBFC4768A0875E1BD95426CBD320F97 /* BundleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B931A3B71B7A770E548A20B3CB2F043 /* BundleUtil.swift */; };
-		7DBE9C2A9106E74D392CEE95425C59C4 /* PasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD26E13CC6416BABD38929EB20454DEB /* PasswordTextField-dummy.m */; };
-		8507F161D3CBFEDF230C87883FE95E6B /* visibility_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D565BCB1998254F6F8F0ED4F4F2AD555 /* visibility_on@2x.png */; };
+		002D7D5DFBE709FBCE9FBA89B75BB9D8 /* Ruleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73ABD3DFE6A0205A2933484D13103B8 /* Ruleable.swift */; };
+		044B7FA71BF44ED41C181687B864E161 /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933006F51F48E71B81F52B0FF2CE0C06 /* RegexRule.swift */; };
+		04A8430BFC619C34E5F4D3878D094380 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DB5485FEB42505114BCF6FC658479 /* CachedResponseHandler.swift */; };
+		079F0820555C5B86C9FBD5EC6344137F /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3C9B5046AD58768E6B661641AB4468 /* Protected.swift */; };
+		09439EF1EFAF8071A9F7F7F84F204C25 /* Pods-LoginTimetonicApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B685B8E75E0CE1F3015887E016C72D /* Pods-LoginTimetonicApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11CCD832BD537718892C6A216A38490A /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444EF4F16FF1334035C4F79BBAAA4B9 /* URLRequest+Alamofire.swift */; };
+		197457852FC83E905248660B0F930452 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15229E68A965F82677F11E9812D1BB3 /* AuthenticationInterceptor.swift */; };
+		1AFD57838680DF58184FF94D14C7F3FF /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138CAF265474F5A13EEC57AA79C4EC7B /* RequestInterceptor.swift */; };
+		2251B469FF239DFE476A99B34DB9CD9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		282FCD4EA8B05830E9108690B8CD336B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FCF829FB6D1A6E59FBAF2F6B942E1B /* Session.swift */; };
+		305BA9A5BD14C2CECA5C1A246AE8701F /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDD33326E570359E3E440871C7B568B /* PasswordRule.swift */; };
+		320C0D7A88AA812EFB20016BA1F5D7AE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C328C62F56D4B24818DCB53FACA2D3 /* AFError.swift */; };
+		3213A7B3A7232B67F41A955C8C1D54F6 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783BE56D547A72850641DF42B6E427E5 /* PasswordTextField.swift */; };
+		334AD768E7377086C5AB749C2A2C60DA /* visibility_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FBDFE214B9E8B5315A30CA496491C71 /* visibility_off.png */; };
+		385BC4B250B6A6DB8AAAEA77D5B7A46F /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5980EAA22C7163C6C209811037A2C6 /* Combine.swift */; };
+		3A59D8FBAF9A54906E3644AC80465AFB /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D589ADA68729950823AD7925F103690 /* Notifications.swift */; };
+		3D47929EF321EF983503F0BFEB0F239C /* PasswordTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAAA802119FD67F7A936C685AD94663 /* PasswordTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA127A261BB563409868A0DC21807B2 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D2145D17E3A260C7CC2CA70E34161A /* ResponseSerialization.swift */; };
+		4192CB91D3018A526D0BF69FD2870890 /* visibility_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD391264BEAE655D4C6FE10973140967 /* visibility_on@2x.png */; };
+		4678899917A281A1E75E165E4D8A0385 /* visibility_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E61C38C9D0853BD4D3482C47A48D801C /* visibility_off@2x.png */; };
+		482B74C0548970BB9C095E2D8530E421 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B85FCCA9C23DB28AA9539D56A5D5D95 /* ParameterEncoding.swift */; };
+		529173B31EFCD3D199E79866AFBEC86C /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597EF8CDCC3B2BE464DF67D3CEC5281 /* HTTPHeaders.swift */; };
+		574D28AEE4D80F83ACE306496CEAFAB7 /* SecureTextToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6C86F13AEB0098CD45A74E1403E97 /* SecureTextToggleButton.swift */; };
+		5B92A66A66BD639411C3D839A0F87B0C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54FE4E07AD257D87948064B53C00324 /* Request.swift */; };
+		643A7AFFB7AEB70B2B9B7E0926055023 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94856819216CBBD00949B3D5134CE17C /* RetryPolicy.swift */; };
+		67B10FEAA3B7E5387D20E76B1085E94D /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974FE44A934DF2A56B9A7F95C991745 /* URLSessionConfiguration+Alamofire.swift */; };
+		686F4A318B0CCD224F9A484ADC6BB29F /* visibility_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 190F48E11BFAB64C5132BAAA1045132C /* visibility_off@3x.png */; };
+		732C29255F73EF3D83D49BD4F8FEAA8F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6FBFBBAAE2CC5660F025E943D1059E /* MultipartUpload.swift */; };
+		737747B9A98257DB58112C3A23686669 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E04D8EF8C801C00D683A008F4A0F7DE /* MultipartFormData.swift */; };
+		76B5E9B7A9ACC6C6E9EB0A4C870D8D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		77AB6AF4BFC6DE016DA7C057B5799C84 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D64504443177DCC2EA7F4D658AEB0F /* ServerTrustEvaluation.swift */; };
+		78B1DD1219182494A6AFAD26AAB20AA6 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6A1F2CF6F202C6229E0548F3797D4 /* Concurrency.swift */; };
+		7CBFC4768A0875E1BD95426CBD320F97 /* BundleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C82FD849957B3BD7E77749CBAB4ED7D /* BundleUtil.swift */; };
+		7D64BC3E6CAA4AB54EAC0AAADE93F578 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A89FAED1FE181A3B51AF837D4596D /* OperationQueue+Alamofire.swift */; };
+		7DBE9C2A9106E74D392CEE95425C59C4 /* PasswordTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 946C511D6A4423FAFFFBD4BDB22070FF /* PasswordTextField-dummy.m */; };
+		7F45D5D58603B45EECD6564FF8A699C3 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB39BD27FDD3B860478542BB4C452D4A /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-dummy.m */; };
+		81E6A0FF7F286008345ECFA3A2103FA8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84878CEA028E23400E699431BB7D10 /* Alamofire.swift */; };
+		82FD97FBBEFE51E2D3B434AF4954FC93 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772B8AE3C63F9A4EA498FE819079D2B9 /* EventMonitor.swift */; };
 		8793D800ED5C5114FCDF90FEE0854B2B /* PasswordTextField.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1AE02FE52E1DF553479C602B170F3F1 /* PasswordTextField.bundle */; };
-		9877081D855406DFBA7897BA6CD9A178 /* PasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB42276C68F02634D18125139C0BCB0 /* PasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2BCC93C76B5475473C7D170A013AC84 /* visibility_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBBBCC299D3C59E317D21BA3DEE2D0D /* visibility_on@3x.png */; };
-		BD4D16BC15B5D8041D4DBF322C537D17 /* visibility_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8990653C819E13E310168C1D9F13A4 /* visibility_off@3x.png */; };
-		BE59C63F2AD1411C5A16DA5AF9BC02DD /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1918AE263962134D9CF1B3CABCD17704 /* StringExtension.swift */; };
-		D05930E167013A80AA0124716F0F253D /* Pods-LoginTimetonicApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E276C23D99F6F7782C9FD8558A1551B8 /* Pods-LoginTimetonicApp-dummy.m */; };
+		8E698F134A953250D5834C8B83CDAD34 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7DE5F50726B446EE6449ECBB115B8E /* DispatchQueue+Alamofire.swift */; };
+		8E85763AE29BEF0A46EE875B8F069E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		9877081D855406DFBA7897BA6CD9A178 /* PasswordTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C18E6B6CD54AF627496A1AEF4A3056 /* PasswordTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A523488C60BF961290D0B1ABB9ADACEC /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF321DE0DD11622466B73C9228DA11 /* RequestCompression.swift */; };
+		AA721ECC2B36AFB7D9FE70C83E6D63F9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6349A6545047328239AB9726BC8E63 /* Response.swift */; };
+		AE279FEADD0F1762D891D29C118E6C20 /* visibility_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D719781F00C0EDA53F12841BDFC38CF9 /* visibility_on@3x.png */; };
+		AF06056283DF9A8305ED29D2DFAB7796 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 361DD4F742C00B9DEF0CBE450B0B8112 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B17D933C8F8BC6A4F91AA620D7D7A870 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204DA6412C7D58F0191C8E0FCE30EA40 /* ParameterEncoder.swift */; };
+		B9188DDC18B36CFF90A4819718E0580B /* visibility_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F7576A387AA4BFC852981E1062E00 /* visibility_on.png */; };
+		B97433147F305A76FEEAA1A994368B66 /* Pods-LoginTimetonicApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E276C23D99F6F7782C9FD8558A1551B8 /* Pods-LoginTimetonicApp-dummy.m */; };
+		BAB17A1C6CAD14B3788973EAF8466C93 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E223DABB905F774CB03B7F70133D86A /* NetworkReachabilityManager.swift */; };
+		BE59C63F2AD1411C5A16DA5AF9BC02DD /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1816C85D93293B9ED89F387933CEF00 /* StringExtension.swift */; };
+		C04739CBCEE445B66192BFA708655EDF /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FC20F3FF5506E1C4B10E96C83949D2 /* StringEncoding+Alamofire.swift */; };
+		C8269B42DED12AB1F275648D0BD32E45 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD383770C6D254A40CD590DA86E08F64 /* URLEncodedFormEncoder.swift */; };
+		D0560E8E2E5EB407B5D8E0381BF453FA /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC87C4EA281D0CE34128B6A0C5B58A0D /* URLConvertible+URLRequestConvertible.swift */; };
+		D09FBBADAF7C5C757AA5AB5DFE54BD25 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BC41132FE8507CE81C23796CF74837 /* Alamofire-dummy.m */; };
+		D23777D1A67479C095B7A6A16347D259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		D368E6F70C5E6998548A72E65F92432D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4E95CF68A1DE71E36FAB78A693E2C /* Validation.swift */; };
+		D7BCBE1EB4A638403C265CE2199EFF1B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
 		E5CFB53DCD4BABB480486DA5349653DE /* Pods-LoginTimetonicAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E9B51133BF62B86226B188CBD2551 /* Pods-LoginTimetonicAppTests-dummy.m */; };
-		EE220981AD9400FADACFB2553A667719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E6251F02EE12804D1B66AE32E716E664 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB73F0D13CFAF759EA596709C6BF271 /* SessionDelegate.swift */; };
+		ECE6F23823454A8FDB3F97CE1A7CD182 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD47C436E55BF138DB64FCA8D265DC3 /* RedirectHandler.swift */; };
+		ECF2F956B37A4C28B228BC291A57AD6E /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738389DFEDADA2A9DE011CA57DEA0D7 /* RequestTaskMap.swift */; };
+		F038D81F7ABAA15CF03246AD4BF334F7 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B7E23845E8DE182AB503F412C21368 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1CBB379FB07540641DF749CDD512891 /* Pods-LoginTimetonicAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A766C1D1504D4549D37B5F34D35D04D5 /* Pods-LoginTimetonicAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F28DDFE64D36BA48542CDEA3CCC2D617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F2415AE8678DE2698B7AD7D88B1A5C0F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC8813B049052921924A90191ECEDE /* AlamofireExtended.swift */; };
+		F28DDFE64D36BA48542CDEA3CCC2D617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		F66CC47AD425C8D57BD149AFD09C2AFE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56878037A4833DF1A65F79CE6E0670DD /* HTTPMethod.swift */; };
+		F6E94E8EE1CE35F49B9091BE8748587B /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2973E003446FF6E6EFAA33B077839 /* Result+Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		38D83B6CE4CE1671AEFCB0A7F968EDEF /* PBXContainerItemProxy */ = {
+		0C0AB0901C9397010AC5CE610533D156 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45B65ECC40F1B82786BABFA3A97B0D20;
 			remoteInfo = PasswordTextField;
 		};
-		4F0D2D40ECC6658AE643B00F9FB35E9C /* PBXContainerItemProxy */ = {
+		3E19332CBC7F612B0264F9214B356FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		4411B40079459E8CE21E91846625B42A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45B65ECC40F1B82786BABFA3A97B0D20;
 			remoteInfo = PasswordTextField;
 		};
-		533EFD6349E761804A29A1593A01CF59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47125EF768D6F7A41A3B4EDDB3C096EB;
-			remoteInfo = "PasswordTextField-PasswordTextField";
-		};
-		606F7A258D2C7B630E70346CB635E90F /* PBXContainerItemProxy */ = {
+		505C1ED6A745CF6B81AF37C102259C96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0A9805CBCDDF0DB03C5F6838920905E5;
 			remoteInfo = "Pods-LoginTimetonicApp";
 		};
+		D0532C10D744461348143CEEC0DBD6AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47125EF768D6F7A41A3B4EDDB3C096EB;
+			remoteInfo = "PasswordTextField-PasswordTextField";
+		};
+		F466AB14DFA7F481E504690DB44738EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B7E23845E8DE182AB503F412C21368 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		067C83CF9F8E09FA90FF20A0B3D8AA77 /* Pods-LoginTimetonicApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTimetonicApp-Info.plist"; sourceTree = "<group>"; };
+		071DB5485FEB42505114BCF6FC658479 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		0769D7DAE201E2711925A7AF9F2E753E /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		08AB001381B3032BE9AAF8FC175D16BB /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests-frameworks.sh"; sourceTree = "<group>"; };
-		1639D4667D6B93C9EFB76851BAA84CCF /* visibility_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visibility_off.png; path = PasswordTextField/Media/visibility_off.png; sourceTree = "<group>"; };
-		1918AE263962134D9CF1B3CABCD17704 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = PasswordTextField/StringExtension.swift; sourceTree = "<group>"; };
+		0B63BF13A892B8C76DE790CE1B327AD1 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		0D5980EAA22C7163C6C209811037A2C6 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		138CAF265474F5A13EEC57AA79C4EC7B /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		1597EF8CDCC3B2BE464DF67D3CEC5281 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		190F48E11BFAB64C5132BAAA1045132C /* visibility_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_off@3x.png"; path = "PasswordTextField/Media/visibility_off@3x.png"; sourceTree = "<group>"; };
 		1E470223605617D52810D0488156E24A /* Pods-LoginTimetonicAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginTimetonicAppTests.modulemap"; sourceTree = "<group>"; };
 		1EAA9D2FE573B36F0EDF1B6123BBAC49 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F0F7576A387AA4BFC852981E1062E00 /* visibility_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visibility_on.png; path = PasswordTextField/Media/visibility_on.png; sourceTree = "<group>"; };
+		204DA6412C7D58F0191C8E0FCE30EA40 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		20FD12DB0D9ADFC170A5BCFA9B7B0014 /* ResourceBundle-PasswordTextField-PasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PasswordTextField-PasswordTextField-Info.plist"; sourceTree = "<group>"; };
 		229E9B51133BF62B86226B188CBD2551 /* Pods-LoginTimetonicAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginTimetonicAppTests-dummy.m"; sourceTree = "<group>"; };
-		2525033E1EC2D7558DF5EB57E1CB0B39 /* Ruleable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ruleable.swift; path = PasswordTextField/Ruleable.swift; sourceTree = "<group>"; };
-		2AF4DA4A9735A509CB6E80D594A321D3 /* PasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordTextField.swift; path = PasswordTextField/PasswordTextField.swift; sourceTree = "<group>"; };
-		2D3BAE2F6789E56FF432999BD7C0A076 /* RegexRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexRule.swift; path = PasswordTextField/RegexRule.swift; sourceTree = "<group>"; };
+		2E04D8EF8C801C00D683A008F4A0F7DE /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		2E223DABB905F774CB03B7F70133D86A /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		2E7DE5F50726B446EE6449ECBB115B8E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		33FCF829FB6D1A6E59FBAF2F6B942E1B /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
 		34886679D0A43BF010097E83BB210695 /* Pods-LoginTimetonicApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginTimetonicApp-frameworks.sh"; sourceTree = "<group>"; };
 		361DD4F742C00B9DEF0CBE450B0B8112 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		3CCF3D4420A7D0998D558CEA743295B4 /* PasswordTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PasswordTextField.h; path = PasswordTextField/PasswordTextField.h; sourceTree = "<group>"; };
+		3D589ADA68729950823AD7925F103690 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		3D92D6C0C53A647CF3E2C7E54E4F128E /* PasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordTextField-prefix.pch"; sourceTree = "<group>"; };
 		40D16C57F157500A148090EEBEBA6E38 /* Pods-LoginTimetonicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTimetonicApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5B9CEFD5E754D6A9B47E92ECC77A5C32 /* PasswordTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordTextField-prefix.pch"; sourceTree = "<group>"; };
-		5ED1DA536C4B65040FD39AC429F898E1 /* PasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasswordTextField.modulemap; sourceTree = "<group>"; };
+		4178AFBEE36BF89AD2445279E1DB8EB7 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		48D2145D17E3A260C7CC2CA70E34161A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		4F95345B93993A2BCC54480D07A03AC1 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		52F6C86F13AEB0098CD45A74E1403E97 /* SecureTextToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureTextToggleButton.swift; path = PasswordTextField/SecureTextToggleButton.swift; sourceTree = "<group>"; };
+		56878037A4833DF1A65F79CE6E0670DD /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		5C82FD849957B3BD7E77749CBAB4ED7D /* BundleUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleUtil.swift; path = PasswordTextField/BundleUtil.swift; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBDFE214B9E8B5315A30CA496491C71 /* visibility_off.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visibility_off.png; path = PasswordTextField/Media/visibility_off.png; sourceTree = "<group>"; };
 		645F766994AC0FCB4A17FE7BB50E775E /* Pods-LoginTimetonicAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginTimetonicAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B5EDEE426140AE873D9CD365C0430EB /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests-Info.plist"; sourceTree = "<group>"; };
+		6BAAFEFB52928235AC564FBE47124453 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		6DB6A1F2CF6F202C6229E0548F3797D4 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		702A89FAED1FE181A3B51AF837D4596D /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		72B2B3298C1CC500211D0D9E11083FBF /* Pods-LoginTimetonicAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTimetonicAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76C50A60E8DC314C07E42737C97502A5 /* Pods-LoginTimetonicApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LoginTimetonicApp"; path = Pods_LoginTimetonicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		772B8AE3C63F9A4EA498FE819079D2B9 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		78164FC29AC6F5318D154CE901FE9789 /* PasswordTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasswordTextField.modulemap; sourceTree = "<group>"; };
+		783BE56D547A72850641DF42B6E427E5 /* PasswordTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordTextField.swift; path = PasswordTextField/PasswordTextField.swift; sourceTree = "<group>"; };
+		79C328C62F56D4B24818DCB53FACA2D3 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		7B85FCCA9C23DB28AA9539D56A5D5D95 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		85F86F2CC866FD305E500C77F6E1D059 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88A2973E003446FF6E6EFAA33B077839 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		897DFA7DFA783D2D864468CF5EE436A4 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests.modulemap"; sourceTree = "<group>"; };
-		8B931A3B71B7A770E548A20B3CB2F043 /* BundleUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleUtil.swift; path = PasswordTextField/BundleUtil.swift; sourceTree = "<group>"; };
+		8997E2DD20BA26B0A248D5BE024857E9 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		8C6349A6545047328239AB9726BC8E63 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		8D75BC05094C0F837C631E24C75B8785 /* Pods-LoginTimetonicApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginTimetonicApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		933006F51F48E71B81F52B0FF2CE0C06 /* RegexRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexRule.swift; path = PasswordTextField/RegexRule.swift; sourceTree = "<group>"; };
+		946C511D6A4423FAFFFBD4BDB22070FF /* PasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasswordTextField-dummy.m"; sourceTree = "<group>"; };
+		94856819216CBBD00949B3D5134CE17C /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		94BC41132FE8507CE81C23796CF74837 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		9A6FBFBBAAE2CC5660F025E943D1059E /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EFF0DD2D29ECB622ADA026C586634B6 /* Pods-LoginTimetonicApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LoginTimetonicApp.modulemap"; sourceTree = "<group>"; };
-		9F32FA5FCB2F1C359B7D18BDCAD0AD4D /* PasswordTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordTextField.debug.xcconfig; sourceTree = "<group>"; };
+		A15229E68A965F82677F11E9812D1BB3 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		A766C1D1504D4549D37B5F34D35D04D5 /* Pods-LoginTimetonicAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginTimetonicAppTests-umbrella.h"; sourceTree = "<group>"; };
+		AAB73F0D13CFAF759EA596709C6BF271 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		ACD47C436E55BF138DB64FCA8D265DC3 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		AD391264BEAE655D4C6FE10973140967 /* visibility_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_on@2x.png"; path = "PasswordTextField/Media/visibility_on@2x.png"; sourceTree = "<group>"; };
+		AE4481BA981B270A2C4E1961CC65C776 /* PasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PasswordTextField-Info.plist"; sourceTree = "<group>"; };
+		B1816C85D93293B9ED89F387933CEF00 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = PasswordTextField/StringExtension.swift; sourceTree = "<group>"; };
 		B1AB653DC5C8DC5D4D6182963CEEC422 /* Pods-LoginTimetonicAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTimetonicAppTests-Info.plist"; sourceTree = "<group>"; };
 		B20F1B280AD02465A49C169A78DC0A36 /* Pods-LoginTimetonicApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginTimetonicApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		B444EF4F16FF1334035C4F79BBAAA4B9 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		B974FE44A934DF2A56B9A7F95C991745 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		BB39BD27FDD3B860478542BB4C452D4A /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests-dummy.m"; sourceTree = "<group>"; };
 		BBBE2415F6F5F5626C27084A2A84B466 /* Pods-LoginTimetonicApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTimetonicApp.release.xcconfig"; sourceTree = "<group>"; };
-		C07B6B515F0EEDC6FBE72A8948FC5051 /* visibility_on.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = visibility_on.png; path = PasswordTextField/Media/visibility_on.png; sourceTree = "<group>"; };
+		BC84878CEA028E23400E699431BB7D10 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		C0A2D0D78C64DBA5521348399D82DD4D /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C27597246734506A5D2664C544DDBE80 /* PasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PasswordTextField-Info.plist"; sourceTree = "<group>"; };
-		C4A6F60587F043DA09BB0514B59BE16B /* SecureTextToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureTextToggleButton.swift; path = PasswordTextField/SecureTextToggleButton.swift; sourceTree = "<group>"; };
 		C67621C806689FB4C16FF06A7AF07D67 /* Pods-LoginTimetonicAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTimetonicAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C18E6B6CD54AF627496A1AEF4A3056 /* PasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordTextField-umbrella.h"; sourceTree = "<group>"; };
+		C73ABD3DFE6A0205A2933484D13103B8 /* Ruleable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ruleable.swift; path = PasswordTextField/Ruleable.swift; sourceTree = "<group>"; };
+		C8D64504443177DCC2EA7F4D658AEB0F /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		CD383770C6D254A40CD590DA86E08F64 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		D0E537E1CDC106721C11FABD0190D1CE /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests"; path = Pods_LoginTimetonicApp_LoginTimetonicAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2E04AADB1F4A290C44A14B8604011AB /* PasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordRule.swift; path = PasswordTextField/PasswordRule.swift; sourceTree = "<group>"; };
-		D565BCB1998254F6F8F0ED4F4F2AD555 /* visibility_on@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_on@2x.png"; path = "PasswordTextField/Media/visibility_on@2x.png"; sourceTree = "<group>"; };
-		DCB10E20E6359D0A89810ADDE4A13A19 /* PasswordTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordTextField.release.xcconfig; sourceTree = "<group>"; };
-		DD26E13CC6416BABD38929EB20454DEB /* PasswordTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasswordTextField-dummy.m"; sourceTree = "<group>"; };
-		DEB42276C68F02634D18125139C0BCB0 /* PasswordTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasswordTextField-umbrella.h"; sourceTree = "<group>"; };
-		E155AB98940EF2EEDE0A5D63A73F51D3 /* ResourceBundle-PasswordTextField-PasswordTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PasswordTextField-PasswordTextField-Info.plist"; sourceTree = "<group>"; };
+		D3AC8813B049052921924A90191ECEDE /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		D719781F00C0EDA53F12841BDFC38CF9 /* visibility_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_on@3x.png"; path = "PasswordTextField/Media/visibility_on@3x.png"; sourceTree = "<group>"; };
+		D738389DFEDADA2A9DE011CA57DEA0D7 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		D7FC20F3FF5506E1C4B10E96C83949D2 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		DA3C9B5046AD58768E6B661641AB4468 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		DAAF321DE0DD11622466B73C9228DA11 /* RequestCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCompression.swift; path = Source/RequestCompression.swift; sourceTree = "<group>"; };
+		DC87C4EA281D0CE34128B6A0C5B58A0D /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		E1AE02FE52E1DF553479C602B170F3F1 /* PasswordTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E276C23D99F6F7782C9FD8558A1551B8 /* Pods-LoginTimetonicApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginTimetonicApp-dummy.m"; sourceTree = "<group>"; };
+		E54FE4E07AD257D87948064B53C00324 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		E61C38C9D0853BD4D3482C47A48D801C /* visibility_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_off@2x.png"; path = "PasswordTextField/Media/visibility_off@2x.png"; sourceTree = "<group>"; };
 		E92E221FDC21E74CCB064AFB315CBD6A /* Pods-LoginTimetonicAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginTimetonicAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		F274508BCB63B85C04FF8F5048D53486 /* visibility_off@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_off@2x.png"; path = "PasswordTextField/Media/visibility_off@2x.png"; sourceTree = "<group>"; };
+		EBDD33326E570359E3E440871C7B568B /* PasswordRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordRule.swift; path = PasswordTextField/PasswordRule.swift; sourceTree = "<group>"; };
 		F2B685B8E75E0CE1F3015887E016C72D /* Pods-LoginTimetonicApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginTimetonicApp-umbrella.h"; sourceTree = "<group>"; };
 		F3B2B979D21179086FB3F7EBE3152F8F /* PasswordTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PasswordTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBBBBCC299D3C59E317D21BA3DEE2D0D /* visibility_on@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_on@3x.png"; path = "PasswordTextField/Media/visibility_on@3x.png"; sourceTree = "<group>"; };
+		F63D873F4E0FB74F255527B22FFCB2FF /* PasswordTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordTextField.release.xcconfig; sourceTree = "<group>"; };
+		F7CE7D4601BA71822D10E5F19FF68E8E /* PasswordTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasswordTextField.debug.xcconfig; sourceTree = "<group>"; };
+		FAB4E95CF68A1DE71E36FAB78A693E2C /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		FBAAA802119FD67F7A936C685AD94663 /* PasswordTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PasswordTextField.h; path = PasswordTextField/PasswordTextField.h; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FDACD1224D50F520DC865E7DF097DC92 /* Pods-LoginTimetonicAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LoginTimetonicAppTests"; path = Pods_LoginTimetonicAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE8990653C819E13E310168C1D9F13A4 /* visibility_off@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "visibility_off@3x.png"; path = "PasswordTextField/Media/visibility_off@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01C8DC2B1D55002C596022ABF4B1AA98 /* Frameworks */ = {
+		58266F7AC4D9E80782EAF526FC2C2DBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B5E9B7A9ACC6C6E9EB0A4C870D8D6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF6E64D3157435E5797A5278584A4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BCBE1EB4A638403C265CE2199EFF1B /* CFNetwork.framework in Frameworks */,
+				8E85763AE29BEF0A46EE875B8F069E8E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,19 +252,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD2FDA443DA2F89FF1247FE4BB7C3AE3 /* Frameworks */ = {
+		881DA3046F9AF1937D9751DF5D76D290 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE220981AD9400FADACFB2553A667719 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C65D6370E0990036BFE9E4F54F19BB27 /* Frameworks */ = {
+		C35C4F00BCD2D426B446CFAA022E02FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468A52A0DF4FAA770ED4B2B771C8467C /* Foundation.framework in Frameworks */,
+				D23777D1A67479C095B7A6A16347D259 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,12 +278,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		206EC894F589A5BE0A89C44BFAC28F46 /* Pods */ = {
+		0CA776380495B3EACC3710DED2BC39A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B01EAF6362B222FF112301F6335D87F7 /* PasswordTextField */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				F3B2B979D21179086FB3F7EBE3152F8F /* PasswordTextField.framework */,
+				E1AE02FE52E1DF553479C602B170F3F1 /* PasswordTextField.bundle */,
+				76C50A60E8DC314C07E42737C97502A5 /* Pods-LoginTimetonicApp */,
+				D0E537E1CDC106721C11FABD0190D1CE /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests */,
+				FDACD1224D50F520DC865E7DF097DC92 /* Pods-LoginTimetonicAppTests */,
 			);
-			name = Pods;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4E2E086D46B535BD5A3E9A0E85C151BF /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests */ = {
@@ -193,24 +316,67 @@
 			path = "Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		68F0F45EBBCF9DE17FC3AEB5944BFA42 /* Products */ = {
+		6DEB97E64342DA10CE510F2130F7D8C2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F3B2B979D21179086FB3F7EBE3152F8F /* PasswordTextField.framework */,
-				E1AE02FE52E1DF553479C602B170F3F1 /* PasswordTextField.bundle */,
-				76C50A60E8DC314C07E42737C97502A5 /* Pods-LoginTimetonicApp */,
-				D0E537E1CDC106721C11FABD0190D1CE /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests */,
-				FDACD1224D50F520DC865E7DF097DC92 /* Pods-LoginTimetonicAppTests */,
+				746FD6B8E87D7043D673226802063EF1 /* Alamofire */,
+				7F81EBE7ACE0BBDADF9C37B54BA25C8D /* PasswordTextField */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		746FD6B8E87D7043D673226802063EF1 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				79C328C62F56D4B24818DCB53FACA2D3 /* AFError.swift */,
+				BC84878CEA028E23400E699431BB7D10 /* Alamofire.swift */,
+				D3AC8813B049052921924A90191ECEDE /* AlamofireExtended.swift */,
+				A15229E68A965F82677F11E9812D1BB3 /* AuthenticationInterceptor.swift */,
+				071DB5485FEB42505114BCF6FC658479 /* CachedResponseHandler.swift */,
+				0D5980EAA22C7163C6C209811037A2C6 /* Combine.swift */,
+				6DB6A1F2CF6F202C6229E0548F3797D4 /* Concurrency.swift */,
+				2E7DE5F50726B446EE6449ECBB115B8E /* DispatchQueue+Alamofire.swift */,
+				772B8AE3C63F9A4EA498FE819079D2B9 /* EventMonitor.swift */,
+				1597EF8CDCC3B2BE464DF67D3CEC5281 /* HTTPHeaders.swift */,
+				56878037A4833DF1A65F79CE6E0670DD /* HTTPMethod.swift */,
+				2E04D8EF8C801C00D683A008F4A0F7DE /* MultipartFormData.swift */,
+				9A6FBFBBAAE2CC5660F025E943D1059E /* MultipartUpload.swift */,
+				2E223DABB905F774CB03B7F70133D86A /* NetworkReachabilityManager.swift */,
+				3D589ADA68729950823AD7925F103690 /* Notifications.swift */,
+				702A89FAED1FE181A3B51AF837D4596D /* OperationQueue+Alamofire.swift */,
+				204DA6412C7D58F0191C8E0FCE30EA40 /* ParameterEncoder.swift */,
+				7B85FCCA9C23DB28AA9539D56A5D5D95 /* ParameterEncoding.swift */,
+				DA3C9B5046AD58768E6B661641AB4468 /* Protected.swift */,
+				ACD47C436E55BF138DB64FCA8D265DC3 /* RedirectHandler.swift */,
+				E54FE4E07AD257D87948064B53C00324 /* Request.swift */,
+				DAAF321DE0DD11622466B73C9228DA11 /* RequestCompression.swift */,
+				138CAF265474F5A13EEC57AA79C4EC7B /* RequestInterceptor.swift */,
+				D738389DFEDADA2A9DE011CA57DEA0D7 /* RequestTaskMap.swift */,
+				8C6349A6545047328239AB9726BC8E63 /* Response.swift */,
+				48D2145D17E3A260C7CC2CA70E34161A /* ResponseSerialization.swift */,
+				88A2973E003446FF6E6EFAA33B077839 /* Result+Alamofire.swift */,
+				94856819216CBBD00949B3D5134CE17C /* RetryPolicy.swift */,
+				C8D64504443177DCC2EA7F4D658AEB0F /* ServerTrustEvaluation.swift */,
+				33FCF829FB6D1A6E59FBAF2F6B942E1B /* Session.swift */,
+				AAB73F0D13CFAF759EA596709C6BF271 /* SessionDelegate.swift */,
+				D7FC20F3FF5506E1C4B10E96C83949D2 /* StringEncoding+Alamofire.swift */,
+				DC87C4EA281D0CE34128B6A0C5B58A0D /* URLConvertible+URLRequestConvertible.swift */,
+				CD383770C6D254A40CD590DA86E08F64 /* URLEncodedFormEncoder.swift */,
+				B444EF4F16FF1334035C4F79BBAAA4B9 /* URLRequest+Alamofire.swift */,
+				B974FE44A934DF2A56B9A7F95C991745 /* URLSessionConfiguration+Alamofire.swift */,
+				FAB4E95CF68A1DE71E36FAB78A693E2C /* Validation.swift */,
+				CF7F4598BCA04BEFC7C7646E7EBBDAF2 /* Support Files */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		75F36E95F9C0F18942F668B2274B7135 /* Pods-LoginTimetonicApp */ = {
@@ -230,33 +396,21 @@
 			path = "Target Support Files/Pods-LoginTimetonicApp";
 			sourceTree = "<group>";
 		};
-		768A14E887F8F9E19CE0125236194954 /* Resources */ = {
+		7F81EBE7ACE0BBDADF9C37B54BA25C8D /* PasswordTextField */ = {
 			isa = PBXGroup;
 			children = (
-				1639D4667D6B93C9EFB76851BAA84CCF /* visibility_off.png */,
-				F274508BCB63B85C04FF8F5048D53486 /* visibility_off@2x.png */,
-				FE8990653C819E13E310168C1D9F13A4 /* visibility_off@3x.png */,
-				C07B6B515F0EEDC6FBE72A8948FC5051 /* visibility_on.png */,
-				D565BCB1998254F6F8F0ED4F4F2AD555 /* visibility_on@2x.png */,
-				FBBBBCC299D3C59E317D21BA3DEE2D0D /* visibility_on@3x.png */,
+				5C82FD849957B3BD7E77749CBAB4ED7D /* BundleUtil.swift */,
+				EBDD33326E570359E3E440871C7B568B /* PasswordRule.swift */,
+				FBAAA802119FD67F7A936C685AD94663 /* PasswordTextField.h */,
+				783BE56D547A72850641DF42B6E427E5 /* PasswordTextField.swift */,
+				933006F51F48E71B81F52B0FF2CE0C06 /* RegexRule.swift */,
+				C73ABD3DFE6A0205A2933484D13103B8 /* Ruleable.swift */,
+				52F6C86F13AEB0098CD45A74E1403E97 /* SecureTextToggleButton.swift */,
+				B1816C85D93293B9ED89F387933CEF00 /* StringExtension.swift */,
+				9D76223E51804E75CAAD06EE541220FE /* Resources */,
+				EA2E4241D6F043A7643C969F1E2F3AFB /* Support Files */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		82B7CAAC7B4E463EBD36BDAA0044AB3E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5ED1DA536C4B65040FD39AC429F898E1 /* PasswordTextField.modulemap */,
-				DD26E13CC6416BABD38929EB20454DEB /* PasswordTextField-dummy.m */,
-				C27597246734506A5D2664C544DDBE80 /* PasswordTextField-Info.plist */,
-				5B9CEFD5E754D6A9B47E92ECC77A5C32 /* PasswordTextField-prefix.pch */,
-				DEB42276C68F02634D18125139C0BCB0 /* PasswordTextField-umbrella.h */,
-				9F32FA5FCB2F1C359B7D18BDCAD0AD4D /* PasswordTextField.debug.xcconfig */,
-				DCB10E20E6359D0A89810ADDE4A13A19 /* PasswordTextField.release.xcconfig */,
-				E155AB98940EF2EEDE0A5D63A73F51D3 /* ResourceBundle-PasswordTextField-PasswordTextField-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PasswordTextField";
+			path = PasswordTextField;
 			sourceTree = "<group>";
 		};
 		90D4A4960A7B6C7131CD3B72470B623B /* Pods-LoginTimetonicAppTests */ = {
@@ -275,6 +429,19 @@
 			path = "Target Support Files/Pods-LoginTimetonicAppTests";
 			sourceTree = "<group>";
 		};
+		9D76223E51804E75CAAD06EE541220FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5FBDFE214B9E8B5315A30CA496491C71 /* visibility_off.png */,
+				E61C38C9D0853BD4D3482C47A48D801C /* visibility_off@2x.png */,
+				190F48E11BFAB64C5132BAAA1045132C /* visibility_off@3x.png */,
+				1F0F7576A387AA4BFC852981E1062E00 /* visibility_on.png */,
+				AD391264BEAE655D4C6FE10973140967 /* visibility_on@2x.png */,
+				D719781F00C0EDA53F12841BDFC38CF9 /* visibility_on@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		AF22B37FD347ECD05EF4C6206E23468A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,50 +452,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B01EAF6362B222FF112301F6335D87F7 /* PasswordTextField */ = {
-			isa = PBXGroup;
-			children = (
-				8B931A3B71B7A770E548A20B3CB2F043 /* BundleUtil.swift */,
-				D2E04AADB1F4A290C44A14B8604011AB /* PasswordRule.swift */,
-				3CCF3D4420A7D0998D558CEA743295B4 /* PasswordTextField.h */,
-				2AF4DA4A9735A509CB6E80D594A321D3 /* PasswordTextField.swift */,
-				2D3BAE2F6789E56FF432999BD7C0A076 /* RegexRule.swift */,
-				2525033E1EC2D7558DF5EB57E1CB0B39 /* Ruleable.swift */,
-				C4A6F60587F043DA09BB0514B59BE16B /* SecureTextToggleButton.swift */,
-				1918AE263962134D9CF1B3CABCD17704 /* StringExtension.swift */,
-				768A14E887F8F9E19CE0125236194954 /* Resources */,
-				82B7CAAC7B4E463EBD36BDAA0044AB3E /* Support Files */,
-			);
-			path = PasswordTextField;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				206EC894F589A5BE0A89C44BFAC28F46 /* Pods */,
-				68F0F45EBBCF9DE17FC3AEB5944BFA42 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				6DEB97E64342DA10CE510F2130F7D8C2 /* Pods */,
+				0CA776380495B3EACC3710DED2BC39A6 /* Products */,
 				AF22B37FD347ECD05EF4C6206E23468A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		CF7F4598BCA04BEFC7C7646E7EBBDAF2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				0B63BF13A892B8C76DE790CE1B327AD1 /* Alamofire.modulemap */,
+				94BC41132FE8507CE81C23796CF74837 /* Alamofire-dummy.m */,
+				6BAAFEFB52928235AC564FBE47124453 /* Alamofire-Info.plist */,
+				4F95345B93993A2BCC54480D07A03AC1 /* Alamofire-prefix.pch */,
+				03B7E23845E8DE182AB503F412C21368 /* Alamofire-umbrella.h */,
+				8997E2DD20BA26B0A248D5BE024857E9 /* Alamofire.debug.xcconfig */,
+				4178AFBEE36BF89AD2445279E1DB8EB7 /* Alamofire.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		EA2E4241D6F043A7643C969F1E2F3AFB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78164FC29AC6F5318D154CE901FE9789 /* PasswordTextField.modulemap */,
+				946C511D6A4423FAFFFBD4BDB22070FF /* PasswordTextField-dummy.m */,
+				AE4481BA981B270A2C4E1961CC65C776 /* PasswordTextField-Info.plist */,
+				3D92D6C0C53A647CF3E2C7E54E4F128E /* PasswordTextField-prefix.pch */,
+				C6C18E6B6CD54AF627496A1AEF4A3056 /* PasswordTextField-umbrella.h */,
+				F7CE7D4601BA71822D10E5F19FF68E8E /* PasswordTextField.debug.xcconfig */,
+				F63D873F4E0FB74F255527B22FFCB2FF /* PasswordTextField.release.xcconfig */,
+				20FD12DB0D9ADFC170A5BCFA9B7B0014 /* ResourceBundle-PasswordTextField-PasswordTextField-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PasswordTextField";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BB0D96F094D2C5B6C62D26C5D176F6B /* Headers */ = {
+		4A35394560BC7A30298F810C2C386EE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				688FA1975F3E15090A39D2FFCC1DAB00 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h in Headers */,
+				09439EF1EFAF8071A9F7F7F84F204C25 /* Pods-LoginTimetonicApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,14 +510,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1CBB379FB07540641DF749CDD512891 /* Pods-LoginTimetonicAppTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D3DD5C4869F285C22499B6AB5A962B2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70DF0B16FBC9BACE1EF089A9CC9E4C1D /* Pods-LoginTimetonicApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,22 +522,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5D00E9C1BF470F0FF4FDAB7106185F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF06056283DF9A8305ED29D2DFAB7796 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED12AA7015568FEE3FAA009FC97DAAD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F038D81F7ABAA15CF03246AD4BF334F7 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0841F26B9E827A5047308F00E8F34457 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B92DD723DBE9A99EEA5DBBC5478983AB /* Build configuration list for PBXNativeTarget "Pods-LoginTimetonicApp-LoginTimetonicAppUITests" */;
+			buildConfigurationList = B4840115F576A249E058BE24D1998A68 /* Build configuration list for PBXNativeTarget "Pods-LoginTimetonicApp-LoginTimetonicAppUITests" */;
 			buildPhases = (
-				4BB0D96F094D2C5B6C62D26C5D176F6B /* Headers */,
-				BD4032DCA54567E070D2C8C5DE12783B /* Sources */,
-				AD2FDA443DA2F89FF1247FE4BB7C3AE3 /* Frameworks */,
-				CAD593ADCC64FF30A1930FAA6F4A112F /* Resources */,
+				E5D00E9C1BF470F0FF4FDAB7106185F4 /* Headers */,
+				7BC9AF80AFA3496B67678991880E92D3 /* Sources */,
+				C35C4F00BCD2D426B446CFAA022E02FC /* Frameworks */,
+				446E03589582FFBD552D2B7F0C076934 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4BE41175811818B42E7A7DCE104C9B04 /* PBXTargetDependency */,
+				07C576DC1D2E8FCCD2551BDC948152E8 /* PBXTargetDependency */,
+				104D15640C81A846D266A717C4C4B02B /* PBXTargetDependency */,
 			);
 			name = "Pods-LoginTimetonicApp-LoginTimetonicAppUITests";
 			productName = Pods_LoginTimetonicApp_LoginTimetonicAppUITests;
@@ -381,17 +563,18 @@
 		};
 		0A9805CBCDDF0DB03C5F6838920905E5 /* Pods-LoginTimetonicApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABE3F5433D6BFB38E8D5EB1944F9C18A /* Build configuration list for PBXNativeTarget "Pods-LoginTimetonicApp" */;
+			buildConfigurationList = 7B6D36C5840E88FCA7218A8C54824B02 /* Build configuration list for PBXNativeTarget "Pods-LoginTimetonicApp" */;
 			buildPhases = (
-				5D3DD5C4869F285C22499B6AB5A962B2 /* Headers */,
-				0F104157C4549008CC8F0AA1C3AE3FC4 /* Sources */,
-				C65D6370E0990036BFE9E4F54F19BB27 /* Frameworks */,
-				F225FA03BB8D858D4E5E35C5E2ECCA6E /* Resources */,
+				4A35394560BC7A30298F810C2C386EE4 /* Headers */,
+				7541794D75CAE77AD73FC3D1EB5BD0D5 /* Sources */,
+				58266F7AC4D9E80782EAF526FC2C2DBC /* Frameworks */,
+				C7CAA7659A417B6A86719FA906EEAF60 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4FC1C8520B0CDC9E3682F7EFE4F764C6 /* PBXTargetDependency */,
+				D48C4255C951B83AFD06094E36D58117 /* PBXTargetDependency */,
+				726E4D934DABB70F67F129B4ED7A8519 /* PBXTargetDependency */,
 			);
 			name = "Pods-LoginTimetonicApp";
 			productName = Pods_LoginTimetonicApp;
@@ -410,7 +593,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A8189D23B598D8CA279D7FC5B19D52A3 /* PBXTargetDependency */,
+				D6AC7B198CB71FBA4EBC5CFEBFAB26B2 /* PBXTargetDependency */,
 			);
 			name = "Pods-LoginTimetonicAppTests";
 			productName = Pods_LoginTimetonicAppTests;
@@ -429,7 +612,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				36027253258D4615F9E6F7BFA63F589C /* PBXTargetDependency */,
+				38795335CB5ECD849601ABAB93C30F16 /* PBXTargetDependency */,
 			);
 			name = PasswordTextField;
 			productName = PasswordTextField;
@@ -438,11 +621,11 @@
 		};
 		47125EF768D6F7A41A3B4EDDB3C096EB /* PasswordTextField-PasswordTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D9174A113DCB7DAD76215F462597857 /* Build configuration list for PBXNativeTarget "PasswordTextField-PasswordTextField" */;
+			buildConfigurationList = 4F520E28E85EA82B62C620D04E8903AC /* Build configuration list for PBXNativeTarget "PasswordTextField-PasswordTextField" */;
 			buildPhases = (
-				CD675603B9EA4A46446735CA378BB516 /* Sources */,
-				01C8DC2B1D55002C596022ABF4B1AA98 /* Frameworks */,
-				6D550534FA3823F9BBE35078001D6CE8 /* Resources */,
+				64C0F5A0988D04F0F137906956E147A2 /* Sources */,
+				881DA3046F9AF1937D9751DF5D76D290 /* Frameworks */,
+				469883679B3AA2E441B075541CE6EAD5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -452,6 +635,24 @@
 			productName = PasswordTextField;
 			productReference = E1AE02FE52E1DF553479C602B170F3F1 /* PasswordTextField.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7761A54AFA2998F27E0BC2FACC2EB53 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				ED12AA7015568FEE3FAA009FC97DAAD5 /* Headers */,
+				277C3B3F937C6D40D2B777A164FAB89D /* Sources */,
+				5BF6E64D3157435E5797A5278584A4DC /* Frameworks */,
+				565FD2058706F22D2347B30C65280F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -471,10 +672,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 68F0F45EBBCF9DE17FC3AEB5944BFA42 /* Products */;
+			productRefGroup = 0CA776380495B3EACC3710DED2BC39A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				45B65ECC40F1B82786BABFA3A97B0D20 /* PasswordTextField */,
 				47125EF768D6F7A41A3B4EDDB3C096EB /* PasswordTextField-PasswordTextField */,
 				0A9805CBCDDF0DB03C5F6838920905E5 /* Pods-LoginTimetonicApp */,
@@ -492,20 +694,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D550534FA3823F9BBE35078001D6CE8 /* Resources */ = {
+		446E03589582FFBD552D2B7F0C076934 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B54E462BB5678F474CB9E5EDB379FAA /* visibility_off.png in Resources */,
-				68569DD973AA583831F3B214B017FF69 /* visibility_off@2x.png in Resources */,
-				BD4D16BC15B5D8041D4DBF322C537D17 /* visibility_off@3x.png in Resources */,
-				700F6D25585105A628DC740CA23AB0A1 /* visibility_on.png in Resources */,
-				8507F161D3CBFEDF230C87883FE95E6B /* visibility_on@2x.png in Resources */,
-				B2BCC93C76B5475473C7D170A013AC84 /* visibility_on@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAD593ADCC64FF30A1930FAA6F4A112F /* Resources */ = {
+		469883679B3AA2E441B075541CE6EAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334AD768E7377086C5AB749C2A2C60DA /* visibility_off.png in Resources */,
+				4678899917A281A1E75E165E4D8A0385 /* visibility_off@2x.png in Resources */,
+				686F4A318B0CCD224F9A484ADC6BB29F /* visibility_off@3x.png in Resources */,
+				B9188DDC18B36CFF90A4819718E0580B /* visibility_on.png in Resources */,
+				4192CB91D3018A526D0BF69FD2870890 /* visibility_on@2x.png in Resources */,
+				AE279FEADD0F1762D891D29C118E6C20 /* visibility_on@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565FD2058706F22D2347B30C65280F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CAA7659A417B6A86719FA906EEAF60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -520,13 +736,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F225FA03BB8D858D4E5E35C5E2ECCA6E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -538,26 +747,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0F104157C4549008CC8F0AA1C3AE3FC4 /* Sources */ = {
+		277C3B3F937C6D40D2B777A164FAB89D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05930E167013A80AA0124716F0F253D /* Pods-LoginTimetonicApp-dummy.m in Sources */,
+				320C0D7A88AA812EFB20016BA1F5D7AE /* AFError.swift in Sources */,
+				81E6A0FF7F286008345ECFA3A2103FA8 /* Alamofire.swift in Sources */,
+				D09FBBADAF7C5C757AA5AB5DFE54BD25 /* Alamofire-dummy.m in Sources */,
+				F2415AE8678DE2698B7AD7D88B1A5C0F /* AlamofireExtended.swift in Sources */,
+				197457852FC83E905248660B0F930452 /* AuthenticationInterceptor.swift in Sources */,
+				04A8430BFC619C34E5F4D3878D094380 /* CachedResponseHandler.swift in Sources */,
+				385BC4B250B6A6DB8AAAEA77D5B7A46F /* Combine.swift in Sources */,
+				78B1DD1219182494A6AFAD26AAB20AA6 /* Concurrency.swift in Sources */,
+				8E698F134A953250D5834C8B83CDAD34 /* DispatchQueue+Alamofire.swift in Sources */,
+				82FD97FBBEFE51E2D3B434AF4954FC93 /* EventMonitor.swift in Sources */,
+				529173B31EFCD3D199E79866AFBEC86C /* HTTPHeaders.swift in Sources */,
+				F66CC47AD425C8D57BD149AFD09C2AFE /* HTTPMethod.swift in Sources */,
+				737747B9A98257DB58112C3A23686669 /* MultipartFormData.swift in Sources */,
+				732C29255F73EF3D83D49BD4F8FEAA8F /* MultipartUpload.swift in Sources */,
+				BAB17A1C6CAD14B3788973EAF8466C93 /* NetworkReachabilityManager.swift in Sources */,
+				3A59D8FBAF9A54906E3644AC80465AFB /* Notifications.swift in Sources */,
+				7D64BC3E6CAA4AB54EAC0AAADE93F578 /* OperationQueue+Alamofire.swift in Sources */,
+				B17D933C8F8BC6A4F91AA620D7D7A870 /* ParameterEncoder.swift in Sources */,
+				482B74C0548970BB9C095E2D8530E421 /* ParameterEncoding.swift in Sources */,
+				079F0820555C5B86C9FBD5EC6344137F /* Protected.swift in Sources */,
+				ECE6F23823454A8FDB3F97CE1A7CD182 /* RedirectHandler.swift in Sources */,
+				5B92A66A66BD639411C3D839A0F87B0C /* Request.swift in Sources */,
+				A523488C60BF961290D0B1ABB9ADACEC /* RequestCompression.swift in Sources */,
+				1AFD57838680DF58184FF94D14C7F3FF /* RequestInterceptor.swift in Sources */,
+				ECF2F956B37A4C28B228BC291A57AD6E /* RequestTaskMap.swift in Sources */,
+				AA721ECC2B36AFB7D9FE70C83E6D63F9 /* Response.swift in Sources */,
+				3FA127A261BB563409868A0DC21807B2 /* ResponseSerialization.swift in Sources */,
+				F6E94E8EE1CE35F49B9091BE8748587B /* Result+Alamofire.swift in Sources */,
+				643A7AFFB7AEB70B2B9B7E0926055023 /* RetryPolicy.swift in Sources */,
+				77AB6AF4BFC6DE016DA7C057B5799C84 /* ServerTrustEvaluation.swift in Sources */,
+				282FCD4EA8B05830E9108690B8CD336B /* Session.swift in Sources */,
+				E6251F02EE12804D1B66AE32E716E664 /* SessionDelegate.swift in Sources */,
+				C04739CBCEE445B66192BFA708655EDF /* StringEncoding+Alamofire.swift in Sources */,
+				D0560E8E2E5EB407B5D8E0381BF453FA /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				C8269B42DED12AB1F275648D0BD32E45 /* URLEncodedFormEncoder.swift in Sources */,
+				11CCD832BD537718892C6A216A38490A /* URLRequest+Alamofire.swift in Sources */,
+				67B10FEAA3B7E5387D20E76B1085E94D /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				D368E6F70C5E6998548A72E65F92432D /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD4032DCA54567E070D2C8C5DE12783B /* Sources */ = {
+		64C0F5A0988D04F0F137906956E147A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D34FA860D574CF3E7C51CE6B55435AC /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD675603B9EA4A46446735CA378BB516 /* Sources */ = {
+		7541794D75CAE77AD73FC3D1EB5BD0D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B97433147F305A76FEEAA1A994368B66 /* Pods-LoginTimetonicApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC9AF80AFA3496B67678991880E92D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F45D5D58603B45EECD6564FF8A699C3 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,74 +833,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		36027253258D4615F9E6F7BFA63F589C /* PBXTargetDependency */ = {
+		07C576DC1D2E8FCCD2551BDC948152E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 3E19332CBC7F612B0264F9214B356FBD /* PBXContainerItemProxy */;
+		};
+		104D15640C81A846D266A717C4C4B02B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PasswordTextField;
+			target = 45B65ECC40F1B82786BABFA3A97B0D20 /* PasswordTextField */;
+			targetProxy = 0C0AB0901C9397010AC5CE610533D156 /* PBXContainerItemProxy */;
+		};
+		38795335CB5ECD849601ABAB93C30F16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "PasswordTextField-PasswordTextField";
 			target = 47125EF768D6F7A41A3B4EDDB3C096EB /* PasswordTextField-PasswordTextField */;
-			targetProxy = 533EFD6349E761804A29A1593A01CF59 /* PBXContainerItemProxy */;
+			targetProxy = D0532C10D744461348143CEEC0DBD6AC /* PBXContainerItemProxy */;
 		};
-		4BE41175811818B42E7A7DCE104C9B04 /* PBXTargetDependency */ = {
+		726E4D934DABB70F67F129B4ED7A8519 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PasswordTextField;
 			target = 45B65ECC40F1B82786BABFA3A97B0D20 /* PasswordTextField */;
-			targetProxy = 38D83B6CE4CE1671AEFCB0A7F968EDEF /* PBXContainerItemProxy */;
+			targetProxy = 4411B40079459E8CE21E91846625B42A /* PBXContainerItemProxy */;
 		};
-		4FC1C8520B0CDC9E3682F7EFE4F764C6 /* PBXTargetDependency */ = {
+		D48C4255C951B83AFD06094E36D58117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PasswordTextField;
-			target = 45B65ECC40F1B82786BABFA3A97B0D20 /* PasswordTextField */;
-			targetProxy = 4F0D2D40ECC6658AE643B00F9FB35E9C /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = F466AB14DFA7F481E504690DB44738EC /* PBXContainerItemProxy */;
 		};
-		A8189D23B598D8CA279D7FC5B19D52A3 /* PBXTargetDependency */ = {
+		D6AC7B198CB71FBA4EBC5CFEBFAB26B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LoginTimetonicApp";
 			target = 0A9805CBCDDF0DB03C5F6838920905E5 /* Pods-LoginTimetonicApp */;
-			targetProxy = 606F7A258D2C7B630E70346CB635E90F /* PBXContainerItemProxy */;
+			targetProxy = 505C1ED6A745CF6B81AF37C102259C96 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A515F3CFC2AC9A93409D71B01D2219D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBBE2415F6F5F5626C27084A2A84B466 /* Pods-LoginTimetonicApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0B093818F0A9152FC275D58ED28F0F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F32FA5FCB2F1C359B7D18BDCAD0AD4D /* PasswordTextField.debug.xcconfig */;
+			baseConfigurationReference = F7CE7D4601BA71822D10E5F19FF68E8E /* PasswordTextField.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -659,7 +887,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PasswordTextField/PasswordTextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PasswordTextField/PasswordTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -680,7 +908,7 @@
 		};
 		28638208FA9BF6EBF5798FEF2D19E2E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCB10E20E6359D0A89810ADDE4A13A19 /* PasswordTextField.release.xcconfig */;
+			baseConfigurationReference = F63D873F4E0FB74F255527B22FFCB2FF /* PasswordTextField.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -693,7 +921,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PasswordTextField/PasswordTextField-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PasswordTextField/PasswordTextField-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -710,77 +938,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4C64D040CBE5B56E5B8FCCCFA79F2082 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F32FA5FCB2F1C359B7D18BDCAD0AD4D /* PasswordTextField.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PasswordTextField";
-				IBSC_MODULE = PasswordTextField;
-				INFOPLIST_FILE = "Target Support Files/PasswordTextField/ResourceBundle-PasswordTextField-PasswordTextField-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = PasswordTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		4C6D18738EC6A375EAEF7B81F1B769E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40D16C57F157500A148090EEBEBA6E38 /* Pods-LoginTimetonicApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5C4EA97B097F79FB3E996B5B5F53718B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCB10E20E6359D0A89810ADDE4A13A19 /* PasswordTextField.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PasswordTextField";
-				IBSC_MODULE = PasswordTextField;
-				INFOPLIST_FILE = "Target Support Files/PasswordTextField/ResourceBundle-PasswordTextField-PasswordTextField-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = PasswordTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -821,9 +978,9 @@
 			};
 			name = Debug;
 		};
-		81622D75A37E09C150D46C8D4DA9CD8B /* Release */ = {
+		82FEDEEEA4F902DE916F788789B35803 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EAA9D2FE573B36F0EDF1B6123BBAC49 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig */;
+			baseConfigurationReference = 40D16C57F157500A148090EEBEBA6E38 /* Pods-LoginTimetonicApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -835,7 +992,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -844,7 +1001,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -853,11 +1010,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -921,7 +1077,24 @@
 			};
 			name = Release;
 		};
-		A2136CDBC9D84CC2CEE8CA10571720AF /* Debug */ = {
+		994320EF6BBC6F57FFD173FFFFBDCE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63D873F4E0FB74F255527B22FFCB2FF /* PasswordTextField.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PasswordTextField";
+				IBSC_MODULE = PasswordTextField;
+				INFOPLIST_FILE = "Target Support Files/PasswordTextField/ResourceBundle-PasswordTextField-PasswordTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = PasswordTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9A1D308B919FA950BB5021C459858FD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0A2D0D78C64DBA5521348399D82DD4D /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.debug.xcconfig */;
 			buildSettings = {
@@ -982,6 +1155,44 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LoginTimetonicAppTests/Pods-LoginTimetonicAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B30BEB6A364B1AEF1947FD0092BB707A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAA9D2FE573B36F0EDF1B6123BBAC49 /* Pods-LoginTimetonicApp-LoginTimetonicAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginTimetonicApp-LoginTimetonicAppUITests/Pods-LoginTimetonicApp-LoginTimetonicAppUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1062,6 +1273,138 @@
 			};
 			name = Debug;
 		};
+		B7D9E7CD650F798EC835C67DACFEBC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8997E2DD20BA26B0A248D5BE024857E9 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Debug;
+		};
+		EAC7CBDFFC1300EE7B184E9F562E93C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CE7D4601BA71822D10E5F19FF68E8E /* PasswordTextField.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PasswordTextField";
+				IBSC_MODULE = PasswordTextField;
+				INFOPLIST_FILE = "Target Support Files/PasswordTextField/ResourceBundle-PasswordTextField-PasswordTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = PasswordTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F5F3306F2C09AB4B623C805497E28D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4178AFBEE36BF89AD2445279E1DB8EB7 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Release;
+		};
+		FD5C8F03F9F769286632BA7791697948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBE2415F6F5F5626C27084A2A84B466 /* Pods-LoginTimetonicApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginTimetonicApp/Pods-LoginTimetonicApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1083,11 +1426,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D9174A113DCB7DAD76215F462597857 /* Build configuration list for PBXNativeTarget "PasswordTextField-PasswordTextField" */ = {
+		4F520E28E85EA82B62C620D04E8903AC /* Build configuration list for PBXNativeTarget "PasswordTextField-PasswordTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C64D040CBE5B56E5B8FCCCFA79F2082 /* Debug */,
-				5C4EA97B097F79FB3E996B5B5F53718B /* Release */,
+				EAC7CBDFFC1300EE7B184E9F562E93C0 /* Debug */,
+				994320EF6BBC6F57FFD173FFFFBDCE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6D36C5840E88FCA7218A8C54824B02 /* Build configuration list for PBXNativeTarget "Pods-LoginTimetonicApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FEDEEEA4F902DE916F788789B35803 /* Debug */,
+				FD5C8F03F9F769286632BA7791697948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1101,20 +1453,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABE3F5433D6BFB38E8D5EB1944F9C18A /* Build configuration list for PBXNativeTarget "Pods-LoginTimetonicApp" */ = {
+		B4840115F576A249E058BE24D1998A68 /* Build configuration list for PBXNativeTarget "Pods-LoginTimetonicApp-LoginTimetonicAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C6D18738EC6A375EAEF7B81F1B769E1 /* Debug */,
-				0A515F3CFC2AC9A93409D71B01D2219D /* Release */,
+				9A1D308B919FA950BB5021C459858FD8 /* Debug */,
+				B30BEB6A364B1AEF1947FD0092BB707A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B92DD723DBE9A99EEA5DBBC5478983AB /* Build configuration list for PBXNativeTarget "Pods-LoginTimetonicApp-LoginTimetonicAppUITests" */ = {
+		D7761A54AFA2998F27E0BC2FACC2EB53 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2136CDBC9D84CC2CEE8CA10571720AF /* Debug */,
-				81622D75A37E09C150D46C8D4DA9CD8B /* Release */,
+				B7D9E7CD650F798EC835C67DACFEBC4F /* Debug */,
+				F5F3306F2C09AB4B623C805497E28D51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

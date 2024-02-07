@@ -15,66 +15,62 @@ protocol LoginPresenterDelegate: AnyObject {
 class LoginPresenter{
     
     private let authRepository: AuthRepository?
-    private var appKey: String?
-    private var oauthkey: String?
-    private var o_u: String?
+    let defauls = UserDefaults.standard
     private var sessKey: String?
     weak var delegate: LoginPresenterDelegate?
     
     init(authRepository: AuthRepository) {
         self.authRepository = authRepository
+        sessKey = defauls.string(forKey: Constants.userDefaulds.SESSION_KEY)
+
     }
     
-    func loginPressed(email: String, password: String, completion: @escaping
-                      (Result<CreateAppKeyModel, Error>) -> Void) {
-        guard let delegate = delegate else {
-            print("Error: Delegate not set.")
+    func loginPressed(email: String?, password: String?) {
+        guard let delegate = delegate,
+              let email = email,
+              let password = password,
+              !email.isEmpty, !password.isEmpty else {
+            print("Error: Delegate not set or empty email/password.")
             return
         }
         
-        authRepository?.createAppkey { [weak self] result in
-            switch result {
-            case .success(let appKeyModel):
-                
-                self?.appKey = appKeyModel.appkey
-                
-                self?.createOauthKey(email: email, password: password, completion: completion)
-                
-            case .failure(let error):
-                self?.delegate?.loginFailure(error: error)
+        if self.sessKey != nil {
+            delegate.loginSuccess()
+        } else {
+            authRepository?.createAppkey { [weak self] result in
+                switch result {
+                case .success(let appKeyModel):
+                    self?.createOauthKey(email: email, password: password, appkey: appKeyModel.appkey)
+                case .failure(let error):
+                    self?.delegate?.loginFailure(error: error)
+                }
             }
         }
     }
     
-    private func createOauthKey(email: String, password: String, completion: @escaping (Result<CreateAppKeyModel, Error>) -> Void) {
-        
-        authRepository?.createOauthKey(logIn: email, password: password, appKey: appKey! ) { [weak self] result in
+    private func createOauthKey(email: String, password: String, appkey: String) {
+        authRepository?.createOauthKey(logIn: email, password: password, appKey: appkey) { [weak self] result in
             switch result {
             case .success(let oauthKeyModel):
-                self?.oauthkey = oauthKeyModel.oauthkey
-                self?.o_u = oauthKeyModel.o_u
-                self?.createSessKey( completion: completion)
-                
+                self?.createSessKey(o_u: oauthKeyModel.o_u, oauthkey: oauthKeyModel.oauthkey)
             case .failure(let error):
                 self?.delegate?.loginFailure(error: error)
             }
         }
     }
     
-    private func createSessKey( completion: @escaping (Result<CreateAppKeyModel, Error>) -> Void) {
-        authRepository?.createSessKey(o_u: o_u ?? "nil", oauthkey: oauthkey ?? "nill") { [weak self] result in
+    private func createSessKey(o_u:String, oauthkey: String) {
+        authRepository?.createSessKey(o_u: o_u, oauthkey: oauthkey) { [weak self] result in
             switch result {
             case .success(let sessKeyModel):
                 self?.sessKey = sessKeyModel.sesskey
-                //                implement view controller to Book
+                self?.defauls.set(self?.sessKey, forKey: Constants.userDefaulds.SESSION_KEY)
                 self?.delegate?.loginSuccess()
-                
             case .failure(let error):
                 self?.delegate?.loginFailure(error: error)
             }
         }
     }
-    
 }
 
 
