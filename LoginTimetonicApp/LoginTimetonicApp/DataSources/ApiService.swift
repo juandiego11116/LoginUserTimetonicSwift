@@ -7,7 +7,7 @@
 
 import Foundation
 
-class AuthApiService: DataSourceProtocols {
+class ApiService: DataSourceProtocols {
     
     private var apiClient = ApiClient()
     
@@ -61,13 +61,21 @@ class AuthApiService: DataSourceProtocols {
         }
     }
     
-    
-    
-    
-    
-    
-    
-    
+    func getAllBooks(o_u: String, sessionKey: String, completion: @escaping (Result<GetAllBooksModel, Error>) -> Void) {
+        apiClient.request(
+            url: Constants.Api.BASE_URL,
+            method: .post,
+            parameters: [
+                Constants.AuthParameterName.VERSION: Constants.AuthParameter.VERSION,
+                Constants.AuthParameterName.REQUEST: Constants.BooksParameter.REQUEST_GET_BOOK,
+                Constants.AuthParameterName.O_U: o_u,
+                Constants.AuthParameterName.U_C: o_u,
+                Constants.BooksParameter.SESSION_KEY: sessionKey
+            ]
+        ) { (result: Result<GetAllBooksModel, Error>) in
+            completion(result)
+        }
+    }
     
     
 }
