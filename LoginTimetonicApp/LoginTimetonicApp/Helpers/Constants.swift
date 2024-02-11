@@ -10,6 +10,7 @@ import Foundation
 struct Constants {
     struct Api {
         static let BASE_URL = "https://timetonic.com/live/api.php"
+        static let BASE_URL_Image = "https://timetonic.com"
     }
     
     struct AuthParameter {
@@ -39,4 +40,16 @@ struct Constants {
         static let SESSION_KEY = "sessKey"
     }
     
+    struct BooksParameter {
+        
+        static let REQUEST_GET_BOOK = "getAllBooks"
+        static let SESSION_KEY = "sesskey"
+        
+    }
+    
+    struct BookElements {
+        static let REUSABLE_BOOK_CELL = "ReusebleBookCell"
+        static let BOOK_CELL_NIB = "BookCell"
+        static let BOOKS_VIEW = "BooksView"
+    }
 }

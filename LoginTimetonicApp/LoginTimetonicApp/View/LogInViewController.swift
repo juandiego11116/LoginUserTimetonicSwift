@@ -14,6 +14,7 @@ protocol LoginViewControllable: AnyObject {
 
 class LoginViewController: UIViewController, LoginPresenterDelegate {
     
+    
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: PasswordTextField!
     
@@ -22,7 +23,7 @@ class LoginViewController: UIViewController, LoginPresenterDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter = LoginPresenter(authRepository: AuthRepository(authDataSource: AuthApiService(apiClient: apiClient)))
+        presenter = LoginPresenter(authRepository: AuthRepository(authDataSource: ApiService(apiClient: apiClient)))
         presenter.delegate = self
     }
     
@@ -30,8 +31,14 @@ class LoginViewController: UIViewController, LoginPresenterDelegate {
         presenter.loginPressed(email: emailTextfield.text, password: passwordTextfield.text)
     }
     
-    func loginSuccess() {
-        print("Login success")
+    func loginSuccess(sessKey: String, o_u: String) {
+        DispatchQueue.main.async {
+            let booksViewController = BooksViewController(nibName: Constants.BookElements.BOOKS_VIEW, bundle: nil)
+            booksViewController.sessKey = sessKey
+            booksViewController.o_u = o_u
+            self.present(booksViewController, animated: true, completion: nil)
+            print("Login success")
+        }
     }
     
     func loginFailure(error: Error) {
