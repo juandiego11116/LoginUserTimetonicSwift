@@ -29,7 +29,6 @@ class ApiClient {
                 case .success(let data):
                     if let data = data, !data.isEmpty {
                         let jsonString = String(data: data, encoding: .utf8)
-                        print("Response JSON string: \(jsonString ?? "No data")")
                         do {
                             let decodedObject = try JSONDecoder().decode(T.self, from: data)
                             completion(.success(decodedObject))
