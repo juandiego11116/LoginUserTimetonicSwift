@@ -1,20 +1,17 @@
-//
-//  AuthApiService.swift
-//  LoginTimetonicApp
-//
-//  Created by Leidy Luna on 28/01/24.
-//
-
 import Foundation
 
+/// A service class responsible for making API requests.
 class ApiService: DataSourceProtocols {
     
     private var apiClient = ApiClient()
     
+    /// Initializes the ApiService with an ApiClient instance.
+    /// - Parameter apiClient: An ApiClient object used to make requests.
     init(apiClient: ApiClient) {
         self.apiClient = apiClient
     }
     
+    /// Creates an application key.
     func createAppKey(completion: @escaping (Result<AppKeyModel, Error>) -> Void) {
         apiClient.request(
             url: Constants.Api.BASE_URL,
@@ -29,6 +26,7 @@ class ApiService: DataSourceProtocols {
         }
     }
     
+    /// Creates an OAuth key.
     func createOauthKey(login: String, password: String, appKey: String, completion: @escaping (Result<OauthkeyModel, Error>) -> Void) {
         apiClient.request(
             url: Constants.Api.BASE_URL,
@@ -45,6 +43,7 @@ class ApiService: DataSourceProtocols {
         }
     }
     
+    /// Creates a session key.
     func createSessKey(o_u: String, oauthkey: String, completion: @escaping (Result<SessKeyModel, Error>) -> Void) {
         apiClient.request(
             url: Constants.Api.BASE_URL,
@@ -61,6 +60,7 @@ class ApiService: DataSourceProtocols {
         }
     }
     
+    /// Retrieves all books.
     func getAllBooks(o_u: String, sessionKey: String, completion: @escaping (Result<GetAllBooksModel, Error>) -> Void) {
         apiClient.request(
             url: Constants.Api.BASE_URL,
@@ -76,6 +76,4 @@ class ApiService: DataSourceProtocols {
             completion(result)
         }
     }
-    
-    
 }

@@ -1,25 +1,29 @@
-//
-//  ViewController.swift
-//  LoginTimetonicApp
-//
-//  Created by Leidy Luna on 22/01/24.
-//
-
 import UIKit
 import PasswordTextField
 
+/// A protocol defining methods for controlling the login view.
 protocol LoginViewControllable: AnyObject {
+    /// Displays the result of the login attempt.
+    /// - Parameters:
+    ///   - isSuccess: A boolean value indicating whether the login attempt was successful.
+    ///   - message: A message describing the result of the login attempt.
     func showResult(isSuccess: Bool, message: String)
 }
 
+/// A view controller responsible for handling the login process.
 class LoginViewController: UIViewController, LoginPresenterDelegate {
     
+    // MARK: - IBOutlets
     
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: PasswordTextField!
     
+    // MARK: - Properties
+    
     var presenter: LoginPresenter!
     let apiClient = ApiClient()
+    
+    // MARK: - View Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,9 +31,14 @@ class LoginViewController: UIViewController, LoginPresenterDelegate {
         presenter.delegate = self
     }
     
-    @IBAction func loginPressed(_ sender: UIButton){
+    // MARK: - IBActions
+    
+    /// Triggered when the login button is pressed.
+    @IBAction func loginPressed(_ sender: UIButton) {
         presenter.loginPressed(email: emailTextfield.text, password: passwordTextfield.text)
     }
+    
+    // MARK: - LoginPresenterDelegate
     
     func loginSuccess(sessKey: String, o_u: String) {
         DispatchQueue.main.async {
@@ -37,7 +46,6 @@ class LoginViewController: UIViewController, LoginPresenterDelegate {
             booksViewController.sessKey = sessKey
             booksViewController.o_u = o_u
             self.present(booksViewController, animated: true, completion: nil)
-            print("Login success")
         }
     }
     
@@ -45,4 +53,3 @@ class LoginViewController: UIViewController, LoginPresenterDelegate {
         print("Login failure. Error: \(error.localizedDescription)")
     }
 }
-
