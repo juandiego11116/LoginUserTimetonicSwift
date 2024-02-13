@@ -27,7 +27,18 @@ class BooksPresenter {
             guard let self = self else { return }
             switch result {
             case .success(let allBooksModel):
-                self.booksView?.displayBooks(allBooksModel)
+                // Filter out the contact books
+                let filteredBooks = allBooksModel.allBooks.books.filter { ($0.contact_u_c == nil) }
+                // New model with only non-contact books
+                let filteredAllBooksModel = GetAllBooksModel(status: allBooksModel.status,
+                                                             sstamp: allBooksModel.sstamp,
+                                                             allBooks: AllBooks(nbBooks: filteredBooks.count,
+                                                                                nbContacts: allBooksModel.allBooks.nbContacts,
+                                                                                contacts: allBooksModel.allBooks.contacts,
+                                                                                books: filteredBooks),
+                                                             createdVNB: allBooksModel.createdVNB,
+                                                             req: allBooksModel.req)
+                self.booksView?.displayBooks(filteredAllBooksModel)
             case .failure(let error):
                 print("Error fetching books: \(error.localizedDescription)")
             }
