@@ -1,0 +1,19 @@
+platform :ios, '11.0'
+
+target 'LoginTimetonicApp' do
+  use_frameworks!
+	pod 'PasswordTextField'
+  pod 'Alamofire'
+
+  # Pods for LoginTimetonicApp
+
+  target 'LoginTimetonicAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LoginTimetonicAppUITests' do
+    # Pods for testing
+  end
+
+end

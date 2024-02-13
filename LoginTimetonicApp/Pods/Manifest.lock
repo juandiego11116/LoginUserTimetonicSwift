@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.8.1)
+  - PasswordTextField (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - PasswordTextField
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - PasswordTextField
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  PasswordTextField: 2548de43f150fc90a014da47b0d97e31aada4b94
+
+PODFILE CHECKSUM: e59fe7ca8a64e853739eed3466b406521495c91b
+
+COCOAPODS: 1.14.3
