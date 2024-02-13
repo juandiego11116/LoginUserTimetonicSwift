@@ -49,7 +49,9 @@ class LoginPresenter {
               let email = email,
               let password = password,
               !email.isEmpty, !password.isEmpty else {
-            print("Error: Delegate not set or empty email/password.")
+            
+            let error = NSError(domain: Constants.Errors.DOMAIN, code: 0, userInfo: [NSLocalizedDescriptionKey: Constants.Errors.ERROR_MESSAGE])
+            delegate?.loginFailure(error: error)
             return
         }
         if self.sessKey != nil &&  self.o_u != nil {
