@@ -29,6 +29,8 @@ class LoginViewController: UIViewController, LoginPresenterDelegate {
         super.viewDidLoad()
         presenter = LoginPresenter(authRepository: AuthRepository(authDataSource: ApiService(apiClient: apiClient)))
         presenter.delegate = self
+        
+        presenter.loginPressed(email: emailTextfield.text, password: passwordTextfield.text)
     }
     
     // MARK: - IBActions
@@ -50,6 +52,9 @@ class LoginViewController: UIViewController, LoginPresenterDelegate {
     }
     
     func loginFailure(error: Error) {
-        print("Login failure. Error: \(error.localizedDescription)")
+        let alertController = UIAlertController(title: "Login Failure", message: error.localizedDescription, preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alertController.addAction(okAction)
+            self.present(alertController, animated: true, completion: nil)
     }
 }
