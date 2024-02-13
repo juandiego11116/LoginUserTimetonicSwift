@@ -48,4 +48,9 @@ struct Constants {
         static let BOOK_CELL_NIB = "BookCell"
         static let BOOKS_VIEW = "BooksView"
     }
+    
+    struct Errors {
+        static let ERROR_MESSAGE = "Error: Delegate not set or empty email/password."
+        static let DOMAIN = "LoginErrorDomain"
+    }
 }
